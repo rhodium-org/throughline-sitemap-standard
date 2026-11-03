@@ -1,0 +1,12 @@
+uid: EX-0005
+type: example
+status: proposed
+title: A site with two homes
+text: conformance/two-homes holds a site that starts at two pages. tl check reports
+  that it allows one.
+normative: true
+links:
+- target: LINK-0001
+  type: verifies
+attrs:
+  origin: ai

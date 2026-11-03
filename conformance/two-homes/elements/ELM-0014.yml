@@ -1,0 +1,16 @@
+uid: ELM-0014
+type: element
+status: proposed
+title: Keep it
+text: Keep it
+normative: true
+links:
+- target: CMP-0006
+  type: composes
+attrs:
+  kind: button
+  order: 2
+  label: Keep it
+  emphasis: secondary
+  effect: closes
+  origin: ai

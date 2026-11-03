@@ -1,0 +1,15 @@
+uid: ATTR-0016
+type: attribute
+status: proposed
+title: A step's order
+text: 'A step''s order: Position; always. Where it comes in its journey.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: order
+  required: true
+  origin: ai

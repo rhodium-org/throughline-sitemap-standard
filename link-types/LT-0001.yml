@@ -1,0 +1,14 @@
+uid: LT-0001
+type: link_type
+status: proposed
+title: The link type part_of
+text: 'One thing sits inside another: a page under its parent page in the site''s
+  tree, a step in its journey. It grounds.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: part_of
+  grounds: true
+  origin: ai

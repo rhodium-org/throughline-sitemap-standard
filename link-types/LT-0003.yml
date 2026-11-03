@@ -1,0 +1,13 @@
+uid: LT-0003
+type: link_type
+status: proposed
+title: The link type starts_at
+text: 'The site''s home: the page a person arriving at the site''s root reaches.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: starts_at
+  grounds: false
+  origin: ai

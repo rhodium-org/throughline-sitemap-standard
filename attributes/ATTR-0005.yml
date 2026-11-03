@@ -1,0 +1,15 @@
+uid: ATTR-0005
+type: attribute
+status: proposed
+title: A component's kind
+text: 'A component''s kind: Component kind; always.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: ENUM-0002
+  type: has_type
+attrs:
+  name: kind
+  required: true
+  origin: ai

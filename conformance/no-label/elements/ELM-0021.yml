@@ -1,0 +1,18 @@
+uid: ELM-0021
+type: element
+status: proposed
+title: An item
+text: An item
+normative: true
+links:
+- target: CMP-0011
+  type: composes
+- target: CMP-0012
+  type: opens
+attrs:
+  kind: button
+  order: 1
+  label: '{uid} {title}'
+  effect: opens
+  repeats: true
+  origin: ai

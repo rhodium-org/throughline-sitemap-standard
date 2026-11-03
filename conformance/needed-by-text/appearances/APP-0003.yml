@@ -1,0 +1,15 @@
+uid: APP-0003
+type: appearance
+status: proposed
+title: The bar on Projects
+text: The bar on Projects
+normative: true
+links:
+- target: PAGE-0002
+  type: part_of
+- target: CMP-0001
+  type: shows
+attrs:
+  placement: header
+  order: 1
+  origin: ai

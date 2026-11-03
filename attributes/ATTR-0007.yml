@@ -1,0 +1,17 @@
+uid: ATTR-0007
+type: attribute
+status: proposed
+title: An appearance's order
+text: 'An appearance''s order: Position; always. Where the component comes among
+  those in the same region of the page. Positions are relative: a drawing reflows
+  them at any width, and there are no coordinates or breakpoints.'
+normative: true
+links:
+- target: TYPE-0004
+  type: has_type
+- target: REG-0008
+  type: belongs_to
+attrs:
+  name: order
+  required: true
+  origin: ai

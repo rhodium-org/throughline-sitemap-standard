@@ -1,0 +1,15 @@
+uid: APP-0013
+type: appearance
+status: proposed
+title: Items on Items
+text: Items on Items
+normative: true
+links:
+- target: PAGE-0004
+  type: part_of
+- target: CMP-0010
+  type: shows
+attrs:
+  placement: main
+  order: 1
+  origin: ai

@@ -1,0 +1,17 @@
+uid: LINK-0023
+type: link
+status: proposed
+title: Only a control a person answers is needed by another element.
+text: Only a control a person answers is needed by another element.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0013
+  type: via
+attrs:
+  max: 0
+  from_when: ELM.kind not in (field, text-area, choice, options, tick-box)
+  origin: ai

@@ -1,0 +1,16 @@
+uid: LINK-0014
+type: link
+status: proposed
+title: A component is part of at most one other component.
+text: A component is part of at most one other component.
+normative: true
+links:
+- target: REG-0003
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  max: 1
+  origin: ai

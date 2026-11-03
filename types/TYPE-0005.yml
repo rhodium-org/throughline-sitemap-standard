@@ -1,0 +1,14 @@
+uid: TYPE-0005
+type: type
+status: proposed
+title: Heading level
+text: A whole number from 1 to 6, as HTML numbers headings.
+normative: true
+links:
+- target: meta:BASE-0003
+  type: has_type
+  stamp: sha256:503de73fbcfdef2d2bf4aba72749defe4a13823d6c73bbbd5e77d758b68cf381
+attrs:
+  min: '1'
+  max: '6'
+  origin: ai

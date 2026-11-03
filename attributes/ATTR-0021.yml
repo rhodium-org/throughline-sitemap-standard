@@ -1,0 +1,15 @@
+uid: ATTR-0021
+type: attribute
+status: proposed
+title: An element's repeats
+text: 'An element''s repeats: Flag; optional. The element stands for each of a list
+  of like elements: a row of a board, an entry of a list.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: repeats
+  origin: ai

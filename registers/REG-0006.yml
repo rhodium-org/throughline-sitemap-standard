@@ -1,0 +1,18 @@
+uid: REG-0006
+type: register
+status: proposed
+title: Steps live in STEP
+text: 'A follower holds the steps of its journeys in STEP, folder steps/: one thing
+  the person does, on one page, in order.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: STEP
+  dir: steps
+  holds: step
+  label: Steps
+  scope: followers
+  required: false
+  origin: ai

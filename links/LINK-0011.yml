@@ -1,0 +1,16 @@
+uid: LINK-0011
+type: link
+status: proposed
+title: A step is done to at most one element.
+text: A step is done to at most one element.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0007
+  type: via
+attrs:
+  max: 1
+  origin: ai

@@ -1,0 +1,19 @@
+uid: REG-0003
+type: register
+status: proposed
+title: Components live in CMP
+text: 'A follower holds its components in CMP, folder components/: a part of the
+  site with one job — a section, a bar, a board, a panel — shown on pages by appearances,
+  or inside another component. A component shown on several pages is one item.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: CMP
+  dir: components
+  holds: component
+  label: Components
+  scope: followers
+  required: true
+  origin: ai

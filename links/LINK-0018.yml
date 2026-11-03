@@ -1,0 +1,17 @@
+uid: LINK-0018
+type: link
+status: proposed
+title: A button that navigates navigates to a page.
+text: A button that navigates navigates to a page.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  min: 1
+  from_when: ELM.effect == navigates
+  origin: ai

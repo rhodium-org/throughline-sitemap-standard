@@ -1,0 +1,14 @@
+uid: ELM-0003
+type: element
+status: proposed
+title: The look
+text: The look
+normative: true
+links:
+- target: CMP-0003
+  type: composes
+attrs:
+  kind: choice
+  order: 1
+  label: Look
+  origin: ai

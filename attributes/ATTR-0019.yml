@@ -1,0 +1,15 @@
+uid: ATTR-0019
+type: attribute
+status: proposed
+title: A component's arrangement
+text: 'A component''s arrangement: Arrangement; optional, column when absent. Whether
+  its elements stack or sit side by side.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: ENUM-0006
+  type: has_type
+attrs:
+  name: arrangement
+  origin: ai

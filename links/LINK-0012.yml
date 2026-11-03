@@ -1,0 +1,17 @@
+uid: LINK-0012
+type: link
+status: proposed
+title: A step that presses, types or chooses is done to an element.
+text: A step that presses, types or chooses is done to an element.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0007
+  type: via
+attrs:
+  min: 1
+  from_when: STEP.action in (presses, types, chooses)
+  origin: ai

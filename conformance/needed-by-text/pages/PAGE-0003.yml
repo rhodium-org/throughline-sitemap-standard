@@ -1,0 +1,16 @@
+uid: PAGE-0003
+type: page
+status: proposed
+title: Registers
+text: Choose a register of the chosen graph.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: PAGE-0002
+  type: part_of
+- target: ROLE-0002
+  type: open_to
+attrs:
+  purpose: Choose a register of the chosen graph.
+  origin: ai

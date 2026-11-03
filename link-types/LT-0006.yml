@@ -1,0 +1,13 @@
+uid: LT-0006
+type: link_type
+status: proposed
+title: The link type on
+text: The step happens on the page.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: 'on'
+  grounds: false
+  origin: ai

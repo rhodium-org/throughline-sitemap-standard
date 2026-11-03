@@ -1,0 +1,19 @@
+uid: REG-0001
+type: register
+status: proposed
+title: The site lives in SITE
+text: 'A follower holds exactly one site, in SITE, folder site/: the website the
+  graph describes. Every other item reaches it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SITE
+  dir: site
+  holds: site
+  label: Site
+  scope: followers
+  exactly_one: true
+  required: true
+  origin: ai

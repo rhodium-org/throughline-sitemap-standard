@@ -1,0 +1,17 @@
+uid: LINK-0021
+type: link
+status: proposed
+title: A page is open to the roles that may reach it; one open to none is open to
+  anyone.
+text: A page is open to the roles that may reach it; one open to none is open to
+  anyone.
+normative: true
+links:
+- target: REG-0002
+  type: from
+- target: REG-0009
+  type: to
+- target: LT-0011
+  type: via
+attrs:
+  origin: ai

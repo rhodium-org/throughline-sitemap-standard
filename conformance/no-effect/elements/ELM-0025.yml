@@ -1,0 +1,16 @@
+uid: ELM-0025
+type: element
+status: proposed
+title: Reject
+text: Reject
+normative: true
+links:
+- target: CMP-0012
+  type: composes
+attrs:
+  kind: button
+  order: 4
+  label: Reject
+  emphasis: secondary
+  effect: submits
+  origin: ai

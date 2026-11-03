@@ -1,0 +1,12 @@
+uid: TYPE-0003
+type: type
+status: proposed
+title: Flag
+text: Yes or no.
+normative: true
+links:
+- target: meta:BASE-0005
+  type: has_type
+  stamp: sha256:e5b586e1cc96ea6805da06f306c35e982532ba7a37155a2a9cb6f87ace3d4e95
+attrs:
+  origin: ai

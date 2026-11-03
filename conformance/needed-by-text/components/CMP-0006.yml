@@ -1,0 +1,12 @@
+uid: CMP-0006
+type: component
+status: proposed
+title: Forget this sign-in?
+text: Asks before a kept sign-in is removed.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: dialog
+  origin: ai

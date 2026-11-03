@@ -1,0 +1,15 @@
+uid: APP-0006
+type: appearance
+status: proposed
+title: The rail on Registers
+text: The rail on Registers
+normative: true
+links:
+- target: PAGE-0003
+  type: part_of
+- target: CMP-0002
+  type: shows
+attrs:
+  placement: nav
+  order: 1
+  origin: ai

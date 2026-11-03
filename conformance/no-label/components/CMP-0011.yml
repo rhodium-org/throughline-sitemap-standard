@@ -1,0 +1,15 @@
+uid: CMP-0011
+type: component
+status: proposed
+title: The register's items
+text: One card per item.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: CMP-0010
+  type: composes
+attrs:
+  kind: board
+  order: 2
+  origin: ai

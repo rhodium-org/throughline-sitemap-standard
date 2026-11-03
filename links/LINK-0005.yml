@@ -1,0 +1,16 @@
+uid: LINK-0005
+type: link
+status: proposed
+title: An element navigates to at most one page.
+text: An element navigates to at most one page.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  max: 1
+  origin: ai

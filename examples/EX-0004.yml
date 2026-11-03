@@ -1,0 +1,12 @@
+uid: EX-0004
+type: example
+status: proposed
+title: An external link with no address
+text: conformance/exit-nowhere holds an external link with no url. tl check reports
+  that the url is required.
+normative: true
+links:
+- target: ATTR-0018
+  type: verifies
+attrs:
+  origin: ai

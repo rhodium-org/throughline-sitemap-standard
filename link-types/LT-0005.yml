@@ -1,0 +1,14 @@
+uid: LT-0005
+type: link_type
+status: proposed
+title: The link type opens
+text: 'Acting on the element shows the component without leaving the page: a dialog,
+  a panel, a fold''s content.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: opens
+  grounds: false
+  origin: ai

@@ -1,0 +1,12 @@
+uid: CMP-0009
+type: component
+status: proposed
+title: Registers
+text: The registers of the chosen graph.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: section
+  origin: ai

@@ -1,0 +1,15 @@
+uid: APP-0005
+type: appearance
+status: proposed
+title: The bar on Registers
+text: The bar on Registers
+normative: true
+links:
+- target: PAGE-0003
+  type: part_of
+- target: CMP-0001
+  type: shows
+attrs:
+  placement: header
+  order: 1
+  origin: ai

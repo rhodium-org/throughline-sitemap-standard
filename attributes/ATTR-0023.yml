@@ -1,0 +1,17 @@
+uid: ATTR-0023
+type: attribute
+status: proposed
+title: An element's effect
+text: 'An element''s effect: Effect; required on a button and absent elsewhere. What
+  pressing it does.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0007
+  type: has_type
+attrs:
+  name: effect
+  required_when: ELM.kind == button
+  absent_when: ELM.kind != button
+  origin: ai

@@ -1,0 +1,12 @@
+uid: EX-0007
+type: example
+status: proposed
+title: A button that opens nothing
+text: conformance/opens-nothing holds a button whose effect is opens and that opens
+  no component. tl check reports that it needs one.
+normative: true
+links:
+- target: LINK-0019
+  type: verifies
+attrs:
+  origin: ai

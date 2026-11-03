@@ -1,0 +1,12 @@
+uid: TYPE-0002
+type: type
+status: proposed
+title: Text
+text: Text of any length.
+normative: true
+links:
+- target: meta:BASE-0002
+  type: has_type
+  stamp: sha256:d6030e665befaeefe71b7d71682873d551342c6ccf2722facc46a9132f51cf6c
+attrs:
+  origin: ai

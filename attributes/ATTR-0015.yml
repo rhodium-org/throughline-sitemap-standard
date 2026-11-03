@@ -1,0 +1,15 @@
+uid: ATTR-0015
+type: attribute
+status: proposed
+title: A journey's goal
+text: 'A journey''s goal: Text; always. What is true for them at the end.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: goal
+  required: true
+  origin: ai

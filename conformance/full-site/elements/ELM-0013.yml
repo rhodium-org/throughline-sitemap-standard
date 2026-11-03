@@ -1,0 +1,16 @@
+uid: ELM-0013
+type: element
+status: proposed
+title: Forget it
+text: Forget it
+normative: true
+links:
+- target: CMP-0006
+  type: composes
+attrs:
+  kind: button
+  order: 1
+  label: Forget it
+  emphasis: destructive
+  effect: changes
+  origin: ai

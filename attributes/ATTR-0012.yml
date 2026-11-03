@@ -1,0 +1,15 @@
+uid: ATTR-0012
+type: attribute
+status: proposed
+title: An element's emphasis
+text: 'An element''s emphasis: Emphasis; optional, and only on a button or a link.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0004
+  type: has_type
+attrs:
+  name: emphasis
+  absent_when: ELM.kind not in (button, link, external-link)
+  origin: ai

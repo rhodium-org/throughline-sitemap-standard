@@ -1,0 +1,15 @@
+uid: ATTR-0008
+type: attribute
+status: proposed
+title: A component's label
+text: 'A component''s label: Line; optional. The name a screen reader announces for
+  its region.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: label
+  origin: ai

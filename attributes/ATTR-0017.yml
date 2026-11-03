@@ -1,0 +1,15 @@
+uid: ATTR-0017
+type: attribute
+status: proposed
+title: A step's action
+text: 'A step''s action: Step action; always. What the person does.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: ENUM-0005
+  type: has_type
+attrs:
+  name: action
+  required: true
+  origin: ai

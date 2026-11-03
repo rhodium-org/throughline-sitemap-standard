@@ -1,0 +1,15 @@
+uid: ATTR-0003
+type: attribute
+status: proposed
+title: A page's route
+text: 'A page''s route: Route; optional. A page with none cannot be linked to or
+  bookmarked.'
+normative: true
+links:
+- target: REG-0002
+  type: belongs_to
+- target: TYPE-0006
+  type: has_type
+attrs:
+  name: route
+  origin: ai

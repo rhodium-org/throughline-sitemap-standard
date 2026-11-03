@@ -1,0 +1,13 @@
+uid: LT-0011
+type: link_type
+status: proposed
+title: The link type open_to
+text: The page can be reached by a person in the role.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: open_to
+  grounds: false
+  origin: ai

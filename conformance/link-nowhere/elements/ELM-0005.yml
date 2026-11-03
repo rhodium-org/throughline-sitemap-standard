@@ -1,0 +1,17 @@
+uid: ELM-0005
+type: element
+status: proposed
+title: The rail's Projects
+text: The rail's Projects
+normative: true
+links:
+- target: CMP-0002
+  type: composes
+- target: PAGE-0002
+  type: navigates_to
+attrs:
+  kind: button
+  order: 2
+  label: Projects
+  effect: navigates
+  origin: ai

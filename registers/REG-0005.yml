@@ -1,0 +1,19 @@
+uid: REG-0005
+type: register
+status: proposed
+title: Journeys live in JRN
+text: 'A follower holds its journeys in JRN, folder journeys/: one path one kind
+  of person takes through the site, from arriving to done. Another path, an alternative
+  or a repeat, is another journey.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: JRN
+  dir: journeys
+  holds: journey
+  label: Journeys
+  scope: followers
+  required: false
+  origin: ai

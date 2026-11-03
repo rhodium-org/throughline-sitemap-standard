@@ -1,0 +1,18 @@
+uid: LINK-0001
+type: link
+status: proposed
+title: A requirement derives from the site.
+text: A requirement derives from the site.
+normative: true
+links:
+- target: REG-0001
+  type: from
+- target: sitemap:REG-0001
+  type: to
+  stamp: sha256:2dcec0a0a93eae7fc9d2d05699b6e6123c88bb6f4803a98c9d3a6695ed90c138
+- target: meta:LT-0001
+  type: via
+  stamp: sha256:858fa56d07be58a5c2d844428e6a360c14942e590add5afa35b90f46f257120b
+attrs:
+  scope: this-graph
+  origin: ai

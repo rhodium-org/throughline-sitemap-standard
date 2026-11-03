@@ -1,0 +1,12 @@
+uid: TYPE-0001
+type: type
+status: proposed
+title: Line
+text: One line of text.
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+  stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
+attrs:
+  origin: ai

@@ -1,0 +1,13 @@
+uid: CMP-0002
+type: component
+status: proposed
+title: The rail
+text: The sections, in the order a person passes through them.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: bar
+  label: Sections
+  origin: ai

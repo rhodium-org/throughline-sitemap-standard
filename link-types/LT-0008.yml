@@ -1,0 +1,15 @@
+uid: LT-0008
+type: link_type
+status: proposed
+title: The link type verifies
+text: 'An example shows a declaration holds: a conforming graph passes tl check,
+  a broken one fails it for that declaration. It grounds.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: verifies
+  grounds: true
+  scope: this-graph
+  origin: ai

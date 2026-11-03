@@ -1,0 +1,17 @@
+uid: ATTR-0018
+type: attribute
+status: proposed
+title: An element's url
+text: 'An element''s url: Web address; required on an external link and absent elsewhere.
+  Where it takes the person, off the site.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0007
+  type: has_type
+attrs:
+  name: url
+  required_when: ELM.kind == external-link
+  absent_when: ELM.kind != external-link
+  origin: ai

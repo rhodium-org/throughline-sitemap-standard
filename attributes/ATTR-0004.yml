@@ -1,0 +1,14 @@
+uid: ATTR-0004
+type: attribute
+status: proposed
+title: A page's purpose
+text: 'A page''s purpose: Text; optional. What a person comes to it for, in a sentence.'
+normative: true
+links:
+- target: REG-0002
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: purpose
+  origin: ai

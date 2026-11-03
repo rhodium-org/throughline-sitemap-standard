@@ -1,0 +1,16 @@
+uid: ATTR-0013
+type: attribute
+status: proposed
+title: An element's level
+text: 'An element''s level: Heading level; required on a heading and absent elsewhere.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0005
+  type: has_type
+attrs:
+  name: level
+  required_when: ELM.kind == heading
+  absent_when: ELM.kind != heading
+  origin: ai

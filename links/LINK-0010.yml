@@ -1,0 +1,17 @@
+uid: LINK-0010
+type: link
+status: proposed
+title: A step happens on exactly one page.
+text: A step happens on exactly one page.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0006
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai

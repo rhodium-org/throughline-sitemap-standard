@@ -1,0 +1,15 @@
+uid: APP-0011
+type: appearance
+status: proposed
+title: Projects on Projects
+text: Projects on Projects
+normative: true
+links:
+- target: PAGE-0002
+  type: part_of
+- target: CMP-0007
+  type: shows
+attrs:
+  placement: main
+  order: 1
+  origin: ai

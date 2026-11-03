@@ -1,0 +1,16 @@
+uid: ATTR-0020
+type: attribute
+status: proposed
+title: An element's arrangement
+text: 'An element''s arrangement: Arrangement; optional, column when absent, and
+  only on an element that holds others.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0006
+  type: has_type
+attrs:
+  name: arrangement
+  absent_when: ELM.kind not in (tabs, menu, fold, row, list, form, controls, options)
+  origin: ai

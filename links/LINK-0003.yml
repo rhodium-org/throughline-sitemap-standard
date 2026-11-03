@@ -1,0 +1,18 @@
+uid: LINK-0003
+type: link
+status: proposed
+title: A page is part of at most one parent page; one with none sits under the home
+  page.
+text: A page is part of at most one parent page; one with none sits under the home
+  page.
+normative: true
+links:
+- target: REG-0002
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0001
+  type: via
+attrs:
+  max: 1
+  origin: ai

@@ -1,0 +1,16 @@
+uid: ATTR-0014
+type: attribute
+status: proposed
+title: An element's mandatory
+text: 'An element''s mandatory: Flag; optional, and only on a control a person answers.
+  Always answered; one answered only for some actions is needed_by each of them instead.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: mandatory
+  absent_when: ELM.kind not in (field, text-area, choice, options, tick-box)
+  origin: ai

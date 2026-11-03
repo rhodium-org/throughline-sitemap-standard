@@ -1,0 +1,18 @@
+uid: LINK-0002
+type: link
+status: proposed
+title: A component relates to the requirements it serves.
+text: A component relates to the requirements it serves.
+normative: true
+links:
+- target: sitemap:REG-0003
+  type: from
+  stamp: sha256:48ce6b0528449e1924b6c41979456ff95ba8eb05f9e88a1cd94d49ad757b15bc
+- target: REG-0001
+  type: to
+- target: sitemap:LT-0010
+  type: via
+  stamp: sha256:4dc24c7aa7abf0b93adade31480c99437a3c3620d398450c6d8056501f1a7cd6
+attrs:
+  scope: this-graph
+  origin: ai

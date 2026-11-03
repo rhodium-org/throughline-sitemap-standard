@@ -1,0 +1,19 @@
+uid: LINK-0004
+type: link
+status: proposed
+title: An element is part of exactly one component or element.
+text: An element is part of exactly one component or element.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0003
+  type: to
+- target: REG-0004
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai

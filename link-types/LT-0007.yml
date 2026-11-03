@@ -1,0 +1,13 @@
+uid: LT-0007
+type: link_type
+status: proposed
+title: The link type acts_on
+text: The step is done to the element.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: acts_on
+  grounds: false
+  origin: ai

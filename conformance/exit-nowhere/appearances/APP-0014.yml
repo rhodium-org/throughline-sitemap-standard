@@ -1,0 +1,15 @@
+uid: APP-0014
+type: appearance
+status: proposed
+title: The item view on Items
+text: The item view on Items
+normative: true
+links:
+- target: PAGE-0004
+  type: part_of
+- target: CMP-0012
+  type: shows
+attrs:
+  placement: overlay
+  order: 1
+  origin: ai

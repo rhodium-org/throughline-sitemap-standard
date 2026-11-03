@@ -1,0 +1,16 @@
+uid: LINK-0007
+type: link
+status: proposed
+title: An element opens at most one component.
+text: An element opens at most one component.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0005
+  type: via
+attrs:
+  max: 1
+  origin: ai

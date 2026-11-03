@@ -1,0 +1,18 @@
+uid: REG-0007
+type: register
+status: proposed
+title: Conformance examples live in EX
+text: 'This standard holds its conformance examples in EX, folder examples/: each
+  names a graph under conformance/ and the declarations it shows hold. They bind
+  no follower.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: EX
+  dir: examples
+  holds: example
+  label: Conformance examples
+  scope: this-graph
+  origin: ai

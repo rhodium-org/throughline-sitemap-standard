@@ -1,0 +1,18 @@
+uid: LINK-0009
+type: link
+status: proposed
+title: A step is part of exactly one journey, and every journey has two or more.
+text: A step is part of exactly one journey, and every journey has two or more.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0005
+  type: to
+- target: LT-0001
+  type: via
+attrs:
+  min: 1
+  max: 1
+  per_target_min: 2
+  origin: ai

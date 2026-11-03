@@ -1,0 +1,15 @@
+uid: LT-0010
+type: link_type
+status: proposed
+title: The link type relates
+text: 'An item bears on another without grounding it: a component, element, page
+  or journey on a requirement the follower holds. A follower declares the LINK to
+  its own requirements register; this standard cannot name it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: relates
+  grounds: false
+  origin: ai

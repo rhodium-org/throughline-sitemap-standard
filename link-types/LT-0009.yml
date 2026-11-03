@@ -1,0 +1,13 @@
+uid: LT-0009
+type: link_type
+status: proposed
+title: The link type shows
+text: The appearance is of the component.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: shows
+  grounds: false
+  origin: ai

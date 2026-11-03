@@ -1,0 +1,12 @@
+uid: EX-0002
+type: example
+status: proposed
+title: A button with no label
+text: conformance/no-label holds a button with no label. tl check reports that the
+  label is required.
+normative: true
+links:
+- target: ATTR-0011
+  type: verifies
+attrs:
+  origin: ai

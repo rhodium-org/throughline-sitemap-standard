@@ -1,0 +1,18 @@
+uid: REG-0004
+type: register
+status: proposed
+title: Elements live in ELM
+text: 'A follower holds its elements in ELM, folder elements/: one thing in a component
+  that a person reads or acts on, or a group of such things.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: ELM
+  dir: elements
+  holds: element
+  label: Elements
+  scope: followers
+  required: true
+  origin: ai

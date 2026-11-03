@@ -1,0 +1,12 @@
+uid: EX-0003
+type: example
+status: proposed
+title: A link that leads nowhere
+text: conformance/link-nowhere holds a link with no page it navigates to. tl check
+  reports that it needs one.
+normative: true
+links:
+- target: LINK-0006
+  type: verifies
+attrs:
+  origin: ai

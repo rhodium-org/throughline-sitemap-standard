@@ -1,0 +1,14 @@
+uid: LT-0002
+type: link_type
+status: proposed
+title: The link type composes
+text: 'One thing is part of another: an element of a component or of another element,
+  a component of another component. It grounds.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: composes
+  grounds: true
+  origin: ai

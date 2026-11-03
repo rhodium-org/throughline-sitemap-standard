@@ -1,0 +1,14 @@
+uid: ATTR-0002
+type: attribute
+status: proposed
+title: A site's url
+text: 'A site''s url: Web address; optional. Where the site is served.'
+normative: true
+links:
+- target: REG-0001
+  type: belongs_to
+- target: TYPE-0007
+  type: has_type
+attrs:
+  name: url
+  origin: ai

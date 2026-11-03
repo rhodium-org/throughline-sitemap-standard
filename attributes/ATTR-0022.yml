@@ -1,0 +1,16 @@
+uid: ATTR-0022
+type: attribute
+status: proposed
+title: A component's order
+text: 'A component''s order: Position; only inside another component, where it comes
+  among its parent''s parts, components and elements alike. Positions are relative:
+  a drawing reflows them at any width, and there are no coordinates or breakpoints.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: order
+  origin: ai

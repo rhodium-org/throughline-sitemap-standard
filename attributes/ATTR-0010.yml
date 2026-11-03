@@ -1,0 +1,18 @@
+uid: ATTR-0010
+type: attribute
+status: proposed
+title: An element's order
+text: 'An element''s order: Position; always. Where it comes among the parts of its
+  parent, components and elements alike, down a column or along a row. Positions
+  are relative: a drawing reflows them at any width, and there are no coordinates
+  or breakpoints.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: order
+  required: true
+  origin: ai

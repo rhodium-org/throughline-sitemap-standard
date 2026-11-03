@@ -1,0 +1,15 @@
+uid: ATTR-0001
+type: attribute
+status: proposed
+title: A site's name
+text: 'A site''s name: Line; always.'
+normative: true
+links:
+- target: REG-0001
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: name
+  required: true
+  origin: ai

@@ -1,0 +1,14 @@
+uid: ELM-0026
+type: element
+status: proposed
+title: The source on GitHub
+text: The source on GitHub
+normative: true
+links:
+- target: CMP-0001
+  type: composes
+attrs:
+  kind: external-link
+  order: 3
+  label: Source
+  origin: ai

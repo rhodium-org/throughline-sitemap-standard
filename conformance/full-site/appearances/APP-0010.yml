@@ -1,0 +1,15 @@
+uid: APP-0010
+type: appearance
+status: proposed
+title: Forget this sign-in? on Log in
+text: Forget this sign-in? on Log in
+normative: true
+links:
+- target: PAGE-0001
+  type: part_of
+- target: CMP-0006
+  type: shows
+attrs:
+  placement: overlay
+  order: 2
+  origin: ai

@@ -1,0 +1,17 @@
+uid: LINK-0001
+type: link
+status: proposed
+title: A site starts at exactly one page, its home.
+text: A site starts at exactly one page, its home.
+normative: true
+links:
+- target: REG-0001
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0003
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai

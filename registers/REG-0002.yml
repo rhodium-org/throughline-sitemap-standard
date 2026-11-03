@@ -1,0 +1,18 @@
+uid: REG-0002
+type: register
+status: proposed
+title: Pages live in PAGE
+text: 'A follower holds its pages in PAGE, folder pages/: each place a person can
+  be on the site, reached at its own route.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: PAGE
+  dir: pages
+  holds: page
+  label: Pages
+  scope: followers
+  required: true
+  origin: ai

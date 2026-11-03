@@ -1,0 +1,15 @@
+uid: APP-0007
+type: appearance
+status: proposed
+title: The bar on Items
+text: The bar on Items
+normative: true
+links:
+- target: PAGE-0004
+  type: part_of
+- target: CMP-0001
+  type: shows
+attrs:
+  placement: header
+  order: 1
+  origin: ai

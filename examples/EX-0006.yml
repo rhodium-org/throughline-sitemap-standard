@@ -1,0 +1,12 @@
+uid: EX-0006
+type: example
+status: proposed
+title: A button that does not say what it does
+text: conformance/no-effect holds a button with no effect. tl check reports that
+  the effect is required.
+normative: true
+links:
+- target: ATTR-0023
+  type: verifies
+attrs:
+  origin: ai

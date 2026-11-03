@@ -1,0 +1,14 @@
+uid: LT-0013
+type: link_type
+status: proposed
+title: The link type needed_by
+text: 'The field must be answered before the button can act: a reason before Reject.
+  It does not ground.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: needed_by
+  grounds: false
+  origin: ai

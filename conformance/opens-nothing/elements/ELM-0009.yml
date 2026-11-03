@@ -1,0 +1,13 @@
+uid: ELM-0009
+type: element
+status: proposed
+title: Ways to prove who you are
+text: Ways to prove who you are
+normative: true
+links:
+- target: CMP-0004
+  type: composes
+attrs:
+  kind: tabs
+  order: 2
+  origin: ai

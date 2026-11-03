@@ -1,0 +1,15 @@
+uid: ELM-0022
+type: element
+status: proposed
+title: The item's text
+text: The item's text
+normative: true
+links:
+- target: CMP-0012
+  type: composes
+- target: REQ-0001
+  type: relates
+attrs:
+  kind: text
+  order: 1
+  origin: ai

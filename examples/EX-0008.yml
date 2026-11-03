@@ -1,0 +1,12 @@
+uid: EX-0008
+type: example
+status: proposed
+title: Text that is needed by a button
+text: conformance/needed-by-text holds a piece of text that is needed_by a button.
+  tl check reports that only a control a person answers may be.
+normative: true
+links:
+- target: LINK-0023
+  type: verifies
+attrs:
+  origin: ai

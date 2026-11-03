@@ -1,0 +1,17 @@
+uid: LINK-0019
+type: link
+status: proposed
+title: A button that opens opens a component.
+text: A button that opens opens a component.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0005
+  type: via
+attrs:
+  min: 1
+  from_when: ELM.effect == opens
+  origin: ai

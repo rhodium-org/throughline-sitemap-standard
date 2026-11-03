@@ -1,0 +1,13 @@
+uid: CMP-0001
+type: component
+status: proposed
+title: The bar
+text: The page's name and the settings, on every page.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: bar
+  arrangement: row
+  origin: ai

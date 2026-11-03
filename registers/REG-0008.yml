@@ -1,0 +1,17 @@
+uid: REG-0008
+type: register
+status: proposed
+title: Appearances live in APP
+text: 'A follower holds its appearances in APP, folder appearances/: one component
+  shown on one page, with where it is placed there.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: APP
+  dir: appearances
+  holds: appearance
+  label: Appearances
+  scope: followers
+  origin: ai
