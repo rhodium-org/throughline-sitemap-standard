@@ -1,0 +1,20 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      # 4.6.2 reads the declarations from items (throughline SR-0285) and passes
+      # coverage rules on to followers (SR-0275), which this standard relies on.
+      - run: pip install "throughline>=4.6.2"
+      - name: The standard's graph is sound
+        run: tl check
+      - name: Every conformance example passes or fails as its EX item says
+        run: bash conformance/check.sh

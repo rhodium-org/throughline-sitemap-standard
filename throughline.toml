@@ -1,0 +1,64 @@
+# The sitemap standard: the shape of a graph that describes one website, written
+# as declaration items a deterministic process can consume (see README.md).
+[project]
+name = "Sitemap standard (throughline source)"
+format_version = 4
+suggested_namespace = "sitemap"
+
+# The meta-standard: the declaration kinds (REG, TYPE, ENUM, ATTR, LINK, LT, INT)
+# and the base types every TYPE and ENUM builds on.
+[[sources]]
+namespace = "meta"
+url = "https://github.com/rhodium-org/throughline-standard-standard"
+ref = "v1.0.0"
+schema = true
+
+[grounding]
+# A follower's one site is its root; everything else reaches it.
+root_types = ["intent", "site"]
+delivery_roots = ["intent", "site"]
+ai_origins = ["ai", "hybrid"]
+
+[status]
+# draft = actively moving toward approval; deferred = acknowledged and grounded
+# but deliberately parked (a backlog wish-list item, not on the active front).
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+# Semantic status roles (SR-0131): which declared status plays each role the
+# tool's operations act on — `tl new` births at 'initial', `tl ratify` writes
+# 'ratified', `tl invalidate` writes 'invalidated' and reads 'invalidated' +
+# 'tombstone' as dead, `tl delete` writes 'tombstone'. Operations resolve status
+# through these roles, never a literal, so a project renames a status freely by
+# editing here. Delete this table only if you drive every status move by hand.
+[status.roles]
+initial = "draft"
+proposed = "proposed"
+ratified = "ratified"
+invalidated = "rejected"
+suspect = "suspect"
+tombstone = "deleted"
+
+# Allowed status moves (SR-0083). `tl check` compares each item against its
+# status in the previous commit and flags any change these do not permit. Delete
+# this table to leave every status freely reachable.
+# Every live status keeps a route to 'ratified' (SR-0150) — in particular the two
+# statuses below 'proposed' can move back to it, so scope that was authored or
+# parked without ratification can still be put forward for a human to accept.
+# Every live status also keeps a route to 'suspect' (SR-0175), so that an item
+# whose grounding is withdrawn can be flagged wherever it currently sits — the
+# statuses below 'approved' hold the items whose grounding is least settled.
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "suspect", "rejected", "deleted"]
+draft       = ["proposed", "approved", "deferred", "suspect", "rejected", "deleted"]
+deferred    = ["proposed", "draft", "approved", "suspect", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+
+# Conformance is shown, not asserted: every rule has an example that verifies
+# it (presentation-manager shape NEED-0038, DEC-0034)

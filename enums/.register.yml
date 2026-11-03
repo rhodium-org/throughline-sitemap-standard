@@ -1,0 +1,4 @@
+prefix: ENUM
+digits: 4
+title: Value sets
+type: enum
