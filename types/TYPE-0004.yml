@@ -1,6 +1,6 @@
 uid: TYPE-0004
 type: type
-status: proposed
+status: ratified
 title: Position
 text: 'A whole number from 1: where a thing comes among its siblings.'
 normative: true
@@ -11,3 +11,13 @@ links:
 attrs:
   min: '1'
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:55Z'
+  fingerprint: sha256:65c45678fdaf84eebc83d4a9c8ae578f5987e7929b08adb729d4322ffdcf4e02
+  content:
+    type: type
+    text: 'A whole number from 1: where a thing comes among its siblings.'
+    normative: true
+    derived: false
+    attrs: {}

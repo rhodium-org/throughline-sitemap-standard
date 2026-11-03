@@ -1,6 +1,6 @@
 uid: LT-0007
 type: link_type
-status: proposed
+status: ratified
 title: The link type acts_on
 text: The step is done to the element.
 normative: true
@@ -11,3 +11,13 @@ attrs:
   name: acts_on
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:39Z'
+  fingerprint: sha256:8077b49e6ffe71e3801001cc3a76c7fa6e326fcff2bfe49404aeebd117dc14dd
+  content:
+    type: link_type
+    text: The step is done to the element.
+    normative: true
+    derived: false
+    attrs: {}

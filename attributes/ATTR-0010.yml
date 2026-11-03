@@ -1,6 +1,6 @@
 uid: ATTR-0010
 type: attribute
-status: proposed
+status: ratified
 title: An element's order
 text: 'An element''s order: Position; always. Where it comes among the parts of its
   parent, components and elements alike, down a column or along a row. Positions
@@ -16,3 +16,16 @@ attrs:
   name: order
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:44Z'
+  fingerprint: sha256:f7a095fa82ecf80b65cddea8806d1c3589bd4156fd694ff6773b121c2d166991
+  content:
+    type: attribute
+    text: 'An element''s order: Position; always. Where it comes among the parts
+      of its parent, components and elements alike, down a column or along a row.
+      Positions are relative: a drawing reflows them at any width, and there are
+      no coordinates or breakpoints.'
+    normative: true
+    derived: false
+    attrs: {}

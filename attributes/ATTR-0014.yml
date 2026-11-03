@@ -1,6 +1,6 @@
 uid: ATTR-0014
 type: attribute
-status: proposed
+status: ratified
 title: An element's mandatory
 text: 'An element''s mandatory: Flag; optional, and only on a control a person answers.
   Always answered; one answered only for some actions is needed_by each of them instead.'
@@ -14,3 +14,15 @@ attrs:
   name: mandatory
   absent_when: ELM.kind not in (field, text-area, choice, options, tick-box)
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:45Z'
+  fingerprint: sha256:b1246972a4ba8b3a60de77d22f68aad43cfd42140367e0cea76753c26448e694
+  content:
+    type: attribute
+    text: 'An element''s mandatory: Flag; optional, and only on a control a person
+      answers. Always answered; one answered only for some actions is needed_by each
+      of them instead.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: INT-0001
 type: intent
-status: proposed
+status: ratified
 title: Describe a website so its sitemap can be drawn and its design checked
 text: 'A graph that follows this standard describes one website: its pages and where
   each sits in the site''s tree, the parts on each page and where they are placed,
@@ -12,3 +12,19 @@ text: 'A graph that follows this standard describes one website: its pages and w
 normative: false
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:36Z'
+  fingerprint: sha256:4f7602875d3a720385506605d94cfa6f8a77669c5267ac95e0977aabcd0a9bbb
+  content:
+    type: intent
+    text: 'A graph that follows this standard describes one website: its pages and
+      where each sits in the site''s tree, the parts on each page and where they
+      are placed, the things a person reads or acts on in each part, where each of
+      those leads, and the journeys people take from arriving to done. A tool reading
+      only the graph can draw the sitemap, a wireframe of every page and a storyboard
+      of every journey, and a checker can test the design against its own criteria,
+      the same way every time.'
+    normative: false
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: LT-0010
 type: link_type
-status: proposed
+status: ratified
 title: The link type relates
 text: 'An item bears on another without grounding it: a component, element, page
   or journey on a requirement the follower holds. A follower declares the LINK to
@@ -13,3 +13,15 @@ attrs:
   name: relates
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:39Z'
+  fingerprint: sha256:4dc24c7aa7abf0b93adade31480c99437a3c3620d398450c6d8056501f1a7cd6
+  content:
+    type: link_type
+    text: 'An item bears on another without grounding it: a component, element, page
+      or journey on a requirement the follower holds. A follower declares the LINK
+      to its own requirements register; this standard cannot name it.'
+    normative: true
+    derived: false
+    attrs: {}

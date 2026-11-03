@@ -1,6 +1,6 @@
 uid: LT-0005
 type: link_type
-status: proposed
+status: ratified
 title: The link type opens
 text: 'Acting on the element shows the component without leaving the page: a dialog,
   a panel, a fold''s content.'
@@ -12,3 +12,14 @@ attrs:
   name: opens
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:38Z'
+  fingerprint: sha256:067211c844bae4855d11cfb8b5cf15ecde60e9299e3b25e673b89aca3db9d68e
+  content:
+    type: link_type
+    text: 'Acting on the element shows the component without leaving the page: a
+      dialog, a panel, a fold''s content.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: ATTR-0017
 type: attribute
-status: proposed
+status: ratified
 title: A step's action
 text: 'A step''s action: Step action; always. What the person does.'
 normative: true
@@ -13,3 +13,13 @@ attrs:
   name: action
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:46Z'
+  fingerprint: sha256:f65302319fc01a507fc1ffe91e0c7b4bba80b8432ee40e915cb215fa9c9e3af4
+  content:
+    type: attribute
+    text: 'A step''s action: Step action; always. What the person does.'
+    normative: true
+    derived: false
+    attrs: {}

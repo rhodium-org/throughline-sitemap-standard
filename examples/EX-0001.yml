@@ -1,6 +1,6 @@
 uid: EX-0001
 type: example
-status: proposed
+status: ratified
 title: A site that follows every declaration
 text: 'conformance/full-site describes part of table.iddn.uk: two roles, four pages,
   a shared bar, rail and settings panel placed by appearances (the panel second among
@@ -51,3 +51,17 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:56Z'
+  fingerprint: sha256:0b16929a05c1316118050e6bccdd1db83cc0d5f6f325e6bf9f5906561985af2f
+  content:
+    type: example
+    text: 'conformance/full-site describes part of table.iddn.uk: two roles, four
+      pages, a shared bar, rail and settings panel placed by appearances (the panel
+      second among the overlays on Items, first elsewhere), boards inside sections,
+      one journey of four steps, a reason needed only to reject, and its own requirements
+      register related to by a component and an element. tl check passes.'
+    normative: true
+    derived: false
+    attrs: {}

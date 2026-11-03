@@ -1,6 +1,6 @@
 uid: TYPE-0002
 type: type
-status: proposed
+status: ratified
 title: Text
 text: Text of any length.
 normative: true
@@ -10,3 +10,13 @@ links:
   stamp: sha256:d6030e665befaeefe71b7d71682873d551342c6ccf2722facc46a9132f51cf6c
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:55Z'
+  fingerprint: sha256:d8ac3b1987547a76561c1798f633f1721c94cb7be68bbf9ea3d8b660ed616be2
+  content:
+    type: type
+    text: Text of any length.
+    normative: true
+    derived: false
+    attrs: {}

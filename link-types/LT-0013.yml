@@ -1,6 +1,6 @@
 uid: LT-0013
 type: link_type
-status: proposed
+status: ratified
 title: The link type needed_by
 text: 'The field must be answered before the button can act: a reason before Reject.
   It does not ground.'
@@ -12,3 +12,14 @@ attrs:
   name: needed_by
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:40Z'
+  fingerprint: sha256:f31ec438fdafe3f3c40e59681e3aa67822d415b9d953a8b9daa5e0e743f6a4de
+  content:
+    type: link_type
+    text: 'The field must be answered before the button can act: a reason before
+      Reject. It does not ground.'
+    normative: true
+    derived: false
+    attrs: {}

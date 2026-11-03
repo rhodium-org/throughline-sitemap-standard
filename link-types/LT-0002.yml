@@ -1,6 +1,6 @@
 uid: LT-0002
 type: link_type
-status: proposed
+status: ratified
 title: The link type composes
 text: 'One thing is part of another: an element of a component or of another element,
   a component of another component. It grounds.'
@@ -12,3 +12,14 @@ attrs:
   name: composes
   grounds: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:38Z'
+  fingerprint: sha256:93e5be955c3f32cc9a60ab7d0e1ccf7925bcda584e21612c8db40174c879018b
+  content:
+    type: link_type
+    text: 'One thing is part of another: an element of a component or of another
+      element, a component of another component. It grounds.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: LINK-0014
 type: link
-status: proposed
+status: ratified
 title: A component is part of at most one other component.
 text: A component is part of at most one other component.
 normative: true
@@ -14,3 +14,13 @@ links:
 attrs:
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:52Z'
+  fingerprint: sha256:37dbadfed5c24759b431a4a7edfc6f2d9b2379f2e64b455fc675c0eca2a6767b
+  content:
+    type: link
+    text: A component is part of at most one other component.
+    normative: true
+    derived: false
+    attrs: {}

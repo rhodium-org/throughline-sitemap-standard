@@ -1,6 +1,6 @@
 uid: LINK-0013
 type: link
-status: proposed
+status: ratified
 title: An example verifies one or more declarations.
 text: An example verifies one or more declarations.
 normative: true
@@ -19,3 +19,13 @@ attrs:
   min: 1
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:52Z'
+  fingerprint: sha256:1aa7237f7d1a32cf762c214b2f3ece52e122f42a8965b94187cf2388ec41b926
+  content:
+    type: link
+    text: An example verifies one or more declarations.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: REG-0002
 type: register
-status: proposed
+status: ratified
 title: Pages live in PAGE
 text: 'A follower holds its pages in PAGE, folder pages/: each place a person can
   be on the site, reached at its own route.'
@@ -16,3 +16,14 @@ attrs:
   scope: followers
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:41Z'
+  fingerprint: sha256:5311735a267a92f1b4e6faf56bd1f5efc4ab7a022e1cbc0bd3cec7301bd492b3
+  content:
+    type: register
+    text: 'A follower holds its pages in PAGE, folder pages/: each place a person
+      can be on the site, reached at its own route.'
+    normative: true
+    derived: false
+    attrs: {}

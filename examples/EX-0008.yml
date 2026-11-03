@@ -1,6 +1,6 @@
 uid: EX-0008
 type: example
-status: proposed
+status: ratified
 title: Text that is needed by a button
 text: conformance/needed-by-text holds a piece of text that is needed_by a button.
   tl check reports that only a control a person answers may be.
@@ -10,3 +10,14 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:58Z'
+  fingerprint: sha256:5ddaca38e37b0c993ba8a1c5171624c11e3d9059a7bb81b5dc7e8de3a03ba042
+  content:
+    type: example
+    text: conformance/needed-by-text holds a piece of text that is needed_by a button.
+      tl check reports that only a control a person answers may be.
+    normative: true
+    derived: false
+    attrs: {}

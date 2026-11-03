@@ -1,6 +1,6 @@
 uid: LT-0001
 type: link_type
-status: proposed
+status: ratified
 title: The link type part_of
 text: 'One thing sits inside another: a page under its parent page in the site''s
   tree, a step in its journey. It grounds.'
@@ -12,3 +12,14 @@ attrs:
   name: part_of
   grounds: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:37Z'
+  fingerprint: sha256:67f97d1368c1a2ef22fd858eebd9cead8027e6263a39198940a124ad682c74a3
+  content:
+    type: link_type
+    text: 'One thing sits inside another: a page under its parent page in the site''s
+      tree, a step in its journey. It grounds.'
+    normative: true
+    derived: false
+    attrs: {}

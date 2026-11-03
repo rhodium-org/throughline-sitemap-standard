@@ -1,6 +1,6 @@
 uid: LINK-0022
 type: link
-status: proposed
+status: ratified
 title: A journey is taken by exactly one role.
 text: A journey is taken by exactly one role.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   min: 1
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:54Z'
+  fingerprint: sha256:19cb7714b345fb73270a1719301b05037f3e296766f14d8f86259f7456bff6fc
+  content:
+    type: link
+    text: A journey is taken by exactly one role.
+    normative: true
+    derived: false
+    attrs: {}

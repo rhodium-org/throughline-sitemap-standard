@@ -1,6 +1,6 @@
 uid: REG-0005
 type: register
-status: proposed
+status: ratified
 title: Journeys live in JRN
 text: 'A follower holds its journeys in JRN, folder journeys/: one path one kind
   of person takes through the site, from arriving to done. Another path, an alternative
@@ -17,3 +17,15 @@ attrs:
   scope: followers
   required: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:41Z'
+  fingerprint: sha256:7be3b438d60d28c08ad64ee5d24bf0ebb547ba113aaf835f31bc955ea476263b
+  content:
+    type: register
+    text: 'A follower holds its journeys in JRN, folder journeys/: one path one kind
+      of person takes through the site, from arriving to done. Another path, an alternative
+      or a repeat, is another journey.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: LINK-0007
 type: link
-status: proposed
+status: ratified
 title: An element opens at most one component.
 text: An element opens at most one component.
 normative: true
@@ -14,3 +14,13 @@ links:
 attrs:
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:50Z'
+  fingerprint: sha256:2aeaf76ff87e2f50364c34ded4f7e03dc0fa6140a3e613dc95d186d3d6516c24
+  content:
+    type: link
+    text: An element opens at most one component.
+    normative: true
+    derived: false
+    attrs: {}

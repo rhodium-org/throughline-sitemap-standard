@@ -1,6 +1,6 @@
 uid: EX-0006
 type: example
-status: proposed
+status: ratified
 title: A button that does not say what it does
 text: conformance/no-effect holds a button with no effect. tl check reports that
   the effect is required.
@@ -10,3 +10,14 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:58Z'
+  fingerprint: sha256:58275f2ea709795c893763bdaa0119f66c65b0cb869834b866585a808517a252
+  content:
+    type: example
+    text: conformance/no-effect holds a button with no effect. tl check reports that
+      the effect is required.
+    normative: true
+    derived: false
+    attrs: {}

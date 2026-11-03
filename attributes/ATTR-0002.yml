@@ -1,6 +1,6 @@
 uid: ATTR-0002
 type: attribute
-status: proposed
+status: ratified
 title: A site's url
 text: 'A site''s url: Web address; optional. Where the site is served.'
 normative: true
@@ -12,3 +12,13 @@ links:
 attrs:
   name: url
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:43Z'
+  fingerprint: sha256:239984f64b98ca94b1bd962e31e9bb370b89d491cb2142a1bf2c6efa7d3294b3
+  content:
+    type: attribute
+    text: 'A site''s url: Web address; optional. Where the site is served.'
+    normative: true
+    derived: false
+    attrs: {}

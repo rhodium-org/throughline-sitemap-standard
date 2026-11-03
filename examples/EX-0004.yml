@@ -1,6 +1,6 @@
 uid: EX-0004
 type: example
-status: proposed
+status: ratified
 title: An external link with no address
 text: conformance/exit-nowhere holds an external link with no url. tl check reports
   that the url is required.
@@ -10,3 +10,14 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:57Z'
+  fingerprint: sha256:d458e356fd87ccf53b27231162bad02ca33a20a1f8126f60ef8cb03202964f38
+  content:
+    type: example
+    text: conformance/exit-nowhere holds an external link with no url. tl check reports
+      that the url is required.
+    normative: true
+    derived: false
+    attrs: {}

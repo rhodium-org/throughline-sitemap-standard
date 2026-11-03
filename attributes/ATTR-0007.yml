@@ -1,6 +1,6 @@
 uid: ATTR-0007
 type: attribute
-status: proposed
+status: ratified
 title: An appearance's order
 text: 'An appearance''s order: Position; always. Where the component comes among
   those in the same region of the page. Positions are relative: a drawing reflows
@@ -15,3 +15,15 @@ attrs:
   name: order
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:44Z'
+  fingerprint: sha256:0e5f1c5ccbef11e2f7940b9aa61bc5d16465af878174afbf92356d4c7ca684f1
+  content:
+    type: attribute
+    text: 'An appearance''s order: Position; always. Where the component comes among
+      those in the same region of the page. Positions are relative: a drawing reflows
+      them at any width, and there are no coordinates or breakpoints.'
+    normative: true
+    derived: false
+    attrs: {}

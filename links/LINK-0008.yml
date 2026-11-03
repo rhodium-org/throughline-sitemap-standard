@@ -1,6 +1,6 @@
 uid: LINK-0008
 type: link
-status: proposed
+status: ratified
 title: A journey derives from its site.
 text: A journey derives from its site.
 normative: true
@@ -16,3 +16,13 @@ attrs:
   min: 1
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:51Z'
+  fingerprint: sha256:bbd94e1a0f79250c1ed9da261227595c485d0e7babcfe22c6515d7b34fbec0f2
+  content:
+    type: link
+    text: A journey derives from its site.
+    normative: true
+    derived: false
+    attrs: {}

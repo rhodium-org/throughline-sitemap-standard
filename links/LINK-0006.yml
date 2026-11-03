@@ -1,6 +1,6 @@
 uid: LINK-0006
 type: link
-status: proposed
+status: ratified
 title: A link navigates to a page.
 text: A link navigates to a page.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   min: 1
   from_when: ELM.kind == link
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:50Z'
+  fingerprint: sha256:2602cbfe4ddd2f0dc8a4a2b3b2a5a68abd22a3b8c8bd6acd6556257868d1e2b8
+  content:
+    type: link
+    text: A link navigates to a page.
+    normative: true
+    derived: false
+    attrs: {}

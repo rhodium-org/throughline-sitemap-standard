@@ -1,6 +1,6 @@
 uid: LT-0009
 type: link_type
-status: proposed
+status: ratified
 title: The link type shows
 text: The appearance is of the component.
 normative: true
@@ -11,3 +11,13 @@ attrs:
   name: shows
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:39Z'
+  fingerprint: sha256:fad1ee5cc105020df4bb96fd63094ff5b359152f19fa7b120c2772ada91cebfc
+  content:
+    type: link_type
+    text: The appearance is of the component.
+    normative: true
+    derived: false
+    attrs: {}

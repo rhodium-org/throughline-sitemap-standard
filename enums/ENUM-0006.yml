@@ -1,6 +1,6 @@
 uid: ENUM-0006
 type: enum
-status: proposed
+status: ratified
 title: Arrangement
 text: 'One of: column, row. Either reflows at any width.'
 normative: true
@@ -11,3 +11,13 @@ links:
 attrs:
   values: column, row
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:49Z'
+  fingerprint: sha256:8287f9699e9916a7628179fb1997236fbb3271bc17833cf3ac093fc776e30bb7
+  content:
+    type: enum
+    text: 'One of: column, row. Either reflows at any width.'
+    normative: true
+    derived: false
+    attrs: {}

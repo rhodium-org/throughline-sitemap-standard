@@ -1,6 +1,6 @@
 uid: TYPE-0001
 type: type
-status: proposed
+status: ratified
 title: Line
 text: One line of text.
 normative: true
@@ -10,3 +10,13 @@ links:
   stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:55Z'
+  fingerprint: sha256:e1ae647b80aa75abaf624628fbfa47d933a6786ca948d91a1b0beb22c42c9d9c
+  content:
+    type: type
+    text: One line of text.
+    normative: true
+    derived: false
+    attrs: {}

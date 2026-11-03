@@ -1,6 +1,6 @@
 uid: ATTR-0021
 type: attribute
-status: proposed
+status: ratified
 title: An element's repeats
 text: 'An element''s repeats: Flag; optional. The element stands for each of a list
   of like elements: a row of a board, an entry of a list.'
@@ -13,3 +13,14 @@ links:
 attrs:
   name: repeats
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:47Z'
+  fingerprint: sha256:5ca37fd77cbaeea49b02af829ff5dc51cd2f53a25cc4a9b8089ed33f89de27b5
+  content:
+    type: attribute
+    text: 'An element''s repeats: Flag; optional. The element stands for each of
+      a list of like elements: a row of a board, an entry of a list.'
+    normative: true
+    derived: false
+    attrs: {}

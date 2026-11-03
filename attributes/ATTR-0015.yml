@@ -1,6 +1,6 @@
 uid: ATTR-0015
 type: attribute
-status: proposed
+status: ratified
 title: A journey's goal
 text: 'A journey''s goal: Text; always. What is true for them at the end.'
 normative: true
@@ -13,3 +13,13 @@ attrs:
   name: goal
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:45Z'
+  fingerprint: sha256:8123c7315209f465dc7e991de3da350b041a76f24cb4695e18576caeddec1b32
+  content:
+    type: attribute
+    text: 'A journey''s goal: Text; always. What is true for them at the end.'
+    normative: true
+    derived: false
+    attrs: {}

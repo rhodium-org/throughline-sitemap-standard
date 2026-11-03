@@ -1,6 +1,6 @@
 uid: LINK-0009
 type: link
-status: proposed
+status: ratified
 title: A step is part of exactly one journey, and every journey has two or more.
 text: A step is part of exactly one journey, and every journey has two or more.
 normative: true
@@ -16,3 +16,13 @@ attrs:
   max: 1
   per_target_min: 2
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:51Z'
+  fingerprint: sha256:ff50f5b9ce1c42fcca95617c7658749f8d05cb8a277e398b65ae7a9f6b2e3ecd
+  content:
+    type: link
+    text: A step is part of exactly one journey, and every journey has two or more.
+    normative: true
+    derived: false
+    attrs: {}

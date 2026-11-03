@@ -1,6 +1,6 @@
 uid: LINK-0017
 type: link
-status: proposed
+status: ratified
 title: An appearance shows exactly one component.
 text: An appearance shows exactly one component.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   min: 1
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:53Z'
+  fingerprint: sha256:168e08ea5690878597a4fe8d5fd170f0ef50fb5909ba39cc63318bcb7aaf33cf
+  content:
+    type: link
+    text: An appearance shows exactly one component.
+    normative: true
+    derived: false
+    attrs: {}

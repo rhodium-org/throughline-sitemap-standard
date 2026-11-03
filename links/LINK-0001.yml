@@ -1,6 +1,6 @@
 uid: LINK-0001
 type: link
-status: proposed
+status: ratified
 title: A site starts at exactly one page, its home.
 text: A site starts at exactly one page, its home.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   min: 1
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:49Z'
+  fingerprint: sha256:d5c3353f39f0edf6f6e39e1f1271b2032d0de1c3fed23cb4f336dd7d21b52146
+  content:
+    type: link
+    text: A site starts at exactly one page, its home.
+    normative: true
+    derived: false
+    attrs: {}

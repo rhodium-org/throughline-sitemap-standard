@@ -1,6 +1,6 @@
 uid: ATTR-0022
 type: attribute
-status: proposed
+status: ratified
 title: A component's order
 text: 'A component''s order: Position; only inside another component, where it comes
   among its parent''s parts, components and elements alike. Positions are relative:
@@ -14,3 +14,16 @@ links:
 attrs:
   name: order
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:47Z'
+  fingerprint: sha256:a7400d4b2f4e8d2636940d9fa3be8e319ac229349a14911b2e75b56a77ca47d9
+  content:
+    type: attribute
+    text: 'A component''s order: Position; only inside another component, where it
+      comes among its parent''s parts, components and elements alike. Positions are
+      relative: a drawing reflows them at any width, and there are no coordinates
+      or breakpoints.'
+    normative: true
+    derived: false
+    attrs: {}

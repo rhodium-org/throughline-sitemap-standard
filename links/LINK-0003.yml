@@ -1,6 +1,6 @@
 uid: LINK-0003
 type: link
-status: proposed
+status: ratified
 title: A page is part of at most one parent page; one with none sits under the home
   page.
 text: A page is part of at most one parent page; one with none sits under the home
@@ -16,3 +16,14 @@ links:
 attrs:
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:49Z'
+  fingerprint: sha256:c9a226163ac908999f90da53ad0e18bc818f4723e3a2aaf8b9f6d753d21f3a95
+  content:
+    type: link
+    text: A page is part of at most one parent page; one with none sits under the
+      home page.
+    normative: true
+    derived: false
+    attrs: {}

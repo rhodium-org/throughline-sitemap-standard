@@ -1,6 +1,6 @@
 uid: LINK-0023
 type: link
-status: proposed
+status: ratified
 title: Only a control a person answers is needed by another element.
 text: Only a control a person answers is needed by another element.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   max: 0
   from_when: ELM.kind not in (field, text-area, choice, options, tick-box)
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:54Z'
+  fingerprint: sha256:486ed44e9dad03d990cebcaf5fe5ce8c785b2a75aac7f72bc3018f048dce3cf1
+  content:
+    type: link
+    text: Only a control a person answers is needed by another element.
+    normative: true
+    derived: false
+    attrs: {}

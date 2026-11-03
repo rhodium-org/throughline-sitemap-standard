@@ -1,6 +1,6 @@
 uid: LINK-0019
 type: link
-status: proposed
+status: ratified
 title: A button that opens opens a component.
 text: A button that opens opens a component.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   min: 1
   from_when: ELM.effect == opens
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:53Z'
+  fingerprint: sha256:e90df4006e6e989c79640daa30d397eb1d503dfe621412a23470c201e50cec67
+  content:
+    type: link
+    text: A button that opens opens a component.
+    normative: true
+    derived: false
+    attrs: {}

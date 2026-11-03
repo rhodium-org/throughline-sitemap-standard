@@ -1,6 +1,6 @@
 uid: REG-0006
 type: register
-status: proposed
+status: ratified
 title: Steps live in STEP
 text: 'A follower holds the steps of its journeys in STEP, folder steps/: one thing
   the person does, on one page, in order.'
@@ -16,3 +16,14 @@ attrs:
   scope: followers
   required: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:41Z'
+  fingerprint: sha256:42bcaa43c3f19bf8d12dfc290e8685f9dd5ee689d9a855bc5803f1fb0a2acbc5
+  content:
+    type: register
+    text: 'A follower holds the steps of its journeys in STEP, folder steps/: one
+      thing the person does, on one page, in order.'
+    normative: true
+    derived: false
+    attrs: {}

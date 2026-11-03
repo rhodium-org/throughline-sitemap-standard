@@ -1,6 +1,6 @@
 uid: LINK-0015
 type: link
-status: proposed
+status: ratified
 title: A component derives from its site.
 text: A component derives from its site.
 normative: true
@@ -16,3 +16,13 @@ attrs:
   min: 1
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:52Z'
+  fingerprint: sha256:9dc06109ac2128e861e2bd6de6c792d1c5ae8a1380415fa7800586e9e5370d5d
+  content:
+    type: link
+    text: A component derives from its site.
+    normative: true
+    derived: false
+    attrs: {}

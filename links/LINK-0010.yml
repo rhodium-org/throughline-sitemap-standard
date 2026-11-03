@@ -1,6 +1,6 @@
 uid: LINK-0010
 type: link
-status: proposed
+status: ratified
 title: A step happens on exactly one page.
 text: A step happens on exactly one page.
 normative: true
@@ -15,3 +15,13 @@ attrs:
   min: 1
   max: 1
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:51Z'
+  fingerprint: sha256:1aad1facbd72b5480b6ce6bd04373b380a08955758ca2d0f92107c35bebfe3bb
+  content:
+    type: link
+    text: A step happens on exactly one page.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: EX-0003
 type: example
-status: proposed
+status: ratified
 title: A link that leads nowhere
 text: conformance/link-nowhere holds a link with no page it navigates to. tl check
   reports that it needs one.
@@ -10,3 +10,14 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:57Z'
+  fingerprint: sha256:3cb973874bd798e88790b257312af96ce5568d0db7b2a541ea30a693b88b3987
+  content:
+    type: example
+    text: conformance/link-nowhere holds a link with no page it navigates to. tl
+      check reports that it needs one.
+    normative: true
+    derived: false
+    attrs: {}

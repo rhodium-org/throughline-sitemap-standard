@@ -1,6 +1,6 @@
 uid: LT-0004
 type: link_type
-status: proposed
+status: ratified
 title: The link type navigates_to
 text: Acting on the element takes the person to the page.
 normative: true
@@ -11,3 +11,13 @@ attrs:
   name: navigates_to
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:38Z'
+  fingerprint: sha256:f0546774327c05f8858121955cdbce05802756be99da0c458797209b843cad17
+  content:
+    type: link_type
+    text: Acting on the element takes the person to the page.
+    normative: true
+    derived: false
+    attrs: {}

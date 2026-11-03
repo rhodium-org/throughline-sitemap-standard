@@ -1,6 +1,6 @@
 uid: ATTR-0016
 type: attribute
-status: proposed
+status: ratified
 title: A step's order
 text: 'A step''s order: Position; always. Where it comes in its journey.'
 normative: true
@@ -13,3 +13,13 @@ attrs:
   name: order
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:46Z'
+  fingerprint: sha256:1edc316a38e89f9402bfba837839bd32c443a5ba72e2b352544e2984bd935206
+  content:
+    type: attribute
+    text: 'A step''s order: Position; always. Where it comes in its journey.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: EX-0002
 type: example
-status: proposed
+status: ratified
 title: A button with no label
 text: conformance/no-label holds a button with no label. tl check reports that the
   label is required.
@@ -10,3 +10,14 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:57Z'
+  fingerprint: sha256:5d47ac63691bb1a12b6d2d711245c3d6048e1f47a0856c38e8a1d4e5f010d89c
+  content:
+    type: example
+    text: conformance/no-label holds a button with no label. tl check reports that
+      the label is required.
+    normative: true
+    derived: false
+    attrs: {}

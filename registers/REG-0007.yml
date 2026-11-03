@@ -1,6 +1,6 @@
 uid: REG-0007
 type: register
-status: proposed
+status: ratified
 title: Conformance examples live in EX
 text: 'This standard holds its conformance examples in EX, folder examples/: each
   names a graph under conformance/ and the declarations it shows hold. They bind
@@ -16,3 +16,15 @@ attrs:
   label: Conformance examples
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:42Z'
+  fingerprint: sha256:d00d1ddbcf69966a1a7fea73dec2de4da2bb77867efe8a49e7450cc056ed0e98
+  content:
+    type: register
+    text: 'This standard holds its conformance examples in EX, folder examples/:
+      each names a graph under conformance/ and the declarations it shows hold. They
+      bind no follower.'
+    normative: true
+    derived: false
+    attrs: {}

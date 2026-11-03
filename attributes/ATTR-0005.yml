@@ -1,6 +1,6 @@
 uid: ATTR-0005
 type: attribute
-status: proposed
+status: ratified
 title: A component's kind
 text: 'A component''s kind: Component kind; always.'
 normative: true
@@ -13,3 +13,13 @@ attrs:
   name: kind
   required: true
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:43Z'
+  fingerprint: sha256:da30ae934771851f659cefffbb74eac984c8a509e8741009b9ca9063f7c2a886
+  content:
+    type: attribute
+    text: 'A component''s kind: Component kind; always.'
+    normative: true
+    derived: false
+    attrs: {}
