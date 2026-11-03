@@ -1,6 +1,6 @@
 uid: CMP-0004
 type: component
-status: proposed
+status: draft
 title: Log in
 text: The ways to prove who you are, and the sign-ins kept.
 normative: true

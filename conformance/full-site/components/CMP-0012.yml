@@ -1,6 +1,6 @@
 uid: CMP-0012
 type: component
-status: proposed
+status: draft
 title: The item view
 text: One item in full, with its decision.
 normative: true

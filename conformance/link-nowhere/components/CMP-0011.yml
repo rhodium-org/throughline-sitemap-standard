@@ -1,6 +1,6 @@
 uid: CMP-0011
 type: component
-status: proposed
+status: draft
 title: The register's items
 text: One card per item.
 normative: true

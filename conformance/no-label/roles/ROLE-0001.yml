@@ -1,6 +1,6 @@
 uid: ROLE-0001
 type: role
-status: proposed
+status: draft
 title: A reviewer given a review link
 text: Someone sent a link to the items they are asked to decide.
 normative: true

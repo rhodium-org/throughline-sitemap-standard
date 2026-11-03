@@ -1,6 +1,6 @@
 uid: CMP-0003
 type: component
-status: proposed
+status: draft
 title: 'This browser: the settings'
 text: The look, the words and the language.
 normative: true

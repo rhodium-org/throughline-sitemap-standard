@@ -1,6 +1,6 @@
 uid: CMP-0001
 type: component
-status: proposed
+status: draft
 title: The bar
 text: The page's name and the settings, on every page.
 normative: true

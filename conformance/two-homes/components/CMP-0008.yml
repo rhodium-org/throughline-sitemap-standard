@@ -1,6 +1,6 @@
 uid: CMP-0008
 type: component
-status: proposed
+status: draft
 title: Projects you can see
 text: One card per project.
 normative: true

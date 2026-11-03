@@ -1,6 +1,6 @@
 uid: CMP-0010
 type: component
-status: proposed
+status: draft
 title: Items
 text: The register's items as a board.
 normative: true

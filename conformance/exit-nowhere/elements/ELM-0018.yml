@@ -1,6 +1,6 @@
 uid: ELM-0018
 type: element
-status: proposed
+status: draft
 title: The graph's registers
 text: The graph's registers
 normative: true

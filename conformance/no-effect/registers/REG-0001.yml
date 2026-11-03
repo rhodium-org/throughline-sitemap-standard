@@ -1,6 +1,6 @@
 uid: REG-0001
 type: register
-status: proposed
+status: draft
 title: Requirements live in REQ
 text: This graph holds its own requirements in REQ, folder requirements/.
 normative: true

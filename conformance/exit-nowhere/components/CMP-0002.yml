@@ -1,6 +1,6 @@
 uid: CMP-0002
 type: component
-status: proposed
+status: draft
 title: The rail
 text: The sections, in the order a person passes through them.
 normative: true

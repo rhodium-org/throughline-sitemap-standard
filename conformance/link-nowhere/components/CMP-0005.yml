@@ -1,6 +1,6 @@
 uid: CMP-0005
 type: component
-status: proposed
+status: draft
 title: The sign-ins this browser keeps
 text: One row per kept sign-in.
 normative: true
