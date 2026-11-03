@@ -1,0 +1,17 @@
+uid: ELM-0019
+type: element
+status: draft
+title: A register
+text: A register
+normative: true
+links:
+- target: ELM-0018
+  type: composes
+- target: PAGE-0004
+  type: navigates_to
+attrs:
+  kind: link
+  order: 1
+  label: '{register}'
+  repeats: true
+  origin: ai

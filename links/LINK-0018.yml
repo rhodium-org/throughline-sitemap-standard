@@ -1,0 +1,27 @@
+uid: LINK-0018
+type: link
+status: ratified
+title: A button that navigates navigates to a page.
+text: A button that navigates navigates to a page.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  min: 1
+  from_when: ELM.effect == navigates
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:53Z'
+  fingerprint: sha256:bc7d25ef907e1a72c7a820d7fb5e6598aea0e4f06c8a2e1db802f93165df3eda
+  content:
+    type: link
+    text: A button that navigates navigates to a page.
+    normative: true
+    derived: false
+    attrs: {}

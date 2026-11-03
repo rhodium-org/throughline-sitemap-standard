@@ -1,0 +1,28 @@
+uid: LINK-0016
+type: link
+status: ratified
+title: An appearance is part of exactly one page, and every page has one.
+text: An appearance is part of exactly one page, and every page has one.
+normative: true
+links:
+- target: REG-0008
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0001
+  type: via
+attrs:
+  min: 1
+  max: 1
+  per_target_min: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:53Z'
+  fingerprint: sha256:3b114a25e13711660d8795ffc2011a12cf695eef4da350ebd9af0c7ec89646f3
+  content:
+    type: link
+    text: An appearance is part of exactly one page, and every page has one.
+    normative: true
+    derived: false
+    attrs: {}

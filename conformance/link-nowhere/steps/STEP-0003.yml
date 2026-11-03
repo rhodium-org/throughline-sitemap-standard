@@ -1,0 +1,17 @@
+uid: STEP-0003
+type: step
+status: draft
+title: Reads it in full
+text: Reads it in full
+normative: true
+links:
+- target: JRN-0001
+  type: part_of
+- target: PAGE-0004
+  type: 'on'
+- target: ELM-0022
+  type: acts_on
+attrs:
+  order: 3
+  action: reads
+  origin: ai

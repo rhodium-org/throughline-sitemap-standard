@@ -1,0 +1,14 @@
+uid: PAGE-0002
+type: page
+status: draft
+title: Projects
+text: Choose the project to read.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: ROLE-0002
+  type: open_to
+attrs:
+  purpose: Choose the project to read.
+  origin: ai

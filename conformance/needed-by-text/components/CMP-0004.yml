@@ -1,0 +1,12 @@
+uid: CMP-0004
+type: component
+status: draft
+title: Log in
+text: The ways to prove who you are, and the sign-ins kept.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: section
+  origin: ai

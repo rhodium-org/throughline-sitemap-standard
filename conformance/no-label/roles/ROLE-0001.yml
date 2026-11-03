@@ -1,0 +1,11 @@
+uid: ROLE-0001
+type: role
+status: draft
+title: A reviewer given a review link
+text: Someone sent a link to the items they are asked to decide.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  origin: ai

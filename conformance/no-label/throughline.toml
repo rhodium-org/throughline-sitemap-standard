@@ -1,0 +1,9 @@
+[project]
+name = "no-label (conformance example)"
+format_version = 4
+
+# The standard this example follows, by path from conformance/full-site/.
+[[sources]]
+namespace = "sitemap"
+path = "../.."
+schema = true

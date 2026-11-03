@@ -1,0 +1,16 @@
+uid: ELM-0023
+type: element
+status: draft
+title: Ratify
+text: Ratify
+normative: true
+links:
+- target: CMP-0012
+  type: composes
+attrs:
+  kind: button
+  order: 2
+  label: Ratify
+  emphasis: primary
+  effect: submits
+  origin: ai

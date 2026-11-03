@@ -1,0 +1,24 @@
+uid: ENUM-0007
+type: enum
+status: ratified
+title: Effect
+text: 'One of: navigates, opens, closes, submits, changes, copies, downloads, uploads.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+  stamp: sha256:8a5668eb1de8165aaf9a743f44afa695efaf2bfda5a532a8542f5d18764df51e
+attrs:
+  values: navigates, opens, closes, submits, changes, copies, downloads, uploads
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:49Z'
+  fingerprint: sha256:c2a84199b3c344016f5421f58b336938d35d3a180c392d88d27f21d36b8b5a7f
+  content:
+    type: enum
+    text: 'One of: navigates, opens, closes, submits, changes, copies, downloads,
+      uploads.'
+    normative: true
+    derived: false
+    attrs: {}

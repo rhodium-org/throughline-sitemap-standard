@@ -1,0 +1,17 @@
+uid: ELM-0006
+type: element
+status: draft
+title: The rail's Registers
+text: The rail's Registers
+normative: true
+links:
+- target: CMP-0002
+  type: composes
+- target: PAGE-0003
+  type: navigates_to
+attrs:
+  kind: button
+  order: 3
+  label: Registers
+  effect: navigates
+  origin: ai

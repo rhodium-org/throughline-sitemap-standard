@@ -1,0 +1,29 @@
+uid: REG-0009
+type: register
+status: ratified
+title: Roles live in ROLE
+text: 'A follower holds its roles in ROLE, folder roles/: one kind of person the
+  site serves, who may reach the pages open to them.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: ROLE
+  dir: roles
+  holds: role
+  label: Roles
+  scope: followers
+  required: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:42Z'
+  fingerprint: sha256:6c47166534028c8d5122c8c5a32241bc20169c26032f036628f45e7d00200a93
+  content:
+    type: register
+    text: 'A follower holds its roles in ROLE, folder roles/: one kind of person
+      the site serves, who may reach the pages open to them.'
+    normative: true
+    derived: false
+    attrs: {}

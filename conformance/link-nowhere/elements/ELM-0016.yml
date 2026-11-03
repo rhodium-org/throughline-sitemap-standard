@@ -1,0 +1,15 @@
+uid: ELM-0016
+type: element
+status: draft
+title: A project
+text: A project
+normative: true
+links:
+- target: CMP-0008
+  type: composes
+attrs:
+  kind: link
+  order: 1
+  label: '{project}'
+  repeats: true
+  origin: ai

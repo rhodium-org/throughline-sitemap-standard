@@ -1,0 +1,31 @@
+uid: LINK-0013
+type: link
+status: ratified
+title: An example verifies one or more declarations.
+text: An example verifies one or more declarations.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: meta:REG-0005
+  type: to
+  stamp: sha256:d33a2d33b63b78692cb7d40cd9e5c59ca1b99eea24fcecdeeab8ecdb97bbb57e
+- target: meta:REG-0006
+  type: to
+  stamp: sha256:0072df853652a5dc5f8bb5b0bcd385e574d1a3ed67fc03c2fd10910e3e09b184
+- target: LT-0008
+  type: via
+attrs:
+  min: 1
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:52Z'
+  fingerprint: sha256:1aa7237f7d1a32cf762c214b2f3ece52e122f42a8965b94187cf2388ec41b926
+  content:
+    type: link
+    text: An example verifies one or more declarations.
+    normative: true
+    derived: false
+    attrs: {}

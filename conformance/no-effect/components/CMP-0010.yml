@@ -1,0 +1,12 @@
+uid: CMP-0010
+type: component
+status: draft
+title: Items
+text: The register's items as a board.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: section
+  origin: ai

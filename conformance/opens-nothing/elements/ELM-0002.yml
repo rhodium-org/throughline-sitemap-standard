@@ -1,0 +1,15 @@
+uid: ELM-0002
+type: element
+status: draft
+title: The settings icon
+text: The settings icon
+normative: true
+links:
+- target: CMP-0001
+  type: composes
+attrs:
+  kind: button
+  order: 2
+  label: Settings
+  effect: opens
+  origin: ai

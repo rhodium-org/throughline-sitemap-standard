@@ -1,0 +1,16 @@
+uid: ELM-0024
+type: element
+status: draft
+title: Why not
+text: Why not
+normative: true
+links:
+- target: CMP-0012
+  type: composes
+- target: ELM-0025
+  type: needed_by
+attrs:
+  kind: text-area
+  order: 3
+  label: Why not
+  origin: ai

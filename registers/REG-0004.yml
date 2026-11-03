@@ -1,0 +1,29 @@
+uid: REG-0004
+type: register
+status: ratified
+title: Elements live in ELM
+text: 'A follower holds its elements in ELM, folder elements/: one thing in a component
+  that a person reads or acts on, or a group of such things.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: ELM
+  dir: elements
+  holds: element
+  label: Elements
+  scope: followers
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:41Z'
+  fingerprint: sha256:5de48070df1d4a5563959cf70c3e318390997097b34482ab9ea3c94ac8aba34e
+  content:
+    type: register
+    text: 'A follower holds its elements in ELM, folder elements/: one thing in a
+      component that a person reads or acts on, or a group of such things.'
+    normative: true
+    derived: false
+    attrs: {}

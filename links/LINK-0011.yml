@@ -1,0 +1,26 @@
+uid: LINK-0011
+type: link
+status: ratified
+title: A step is done to at most one element.
+text: A step is done to at most one element.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0007
+  type: via
+attrs:
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:51Z'
+  fingerprint: sha256:1d8cf4a354af9824101ea1034a4d0b7979ef2c8c2177b61a6899445c0e29a5f7
+  content:
+    type: link
+    text: A step is done to at most one element.
+    normative: true
+    derived: false
+    attrs: {}

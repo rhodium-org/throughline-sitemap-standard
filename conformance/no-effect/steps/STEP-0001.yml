@@ -1,0 +1,15 @@
+uid: STEP-0001
+type: step
+status: draft
+title: Opens the review link and reaches the items it names
+text: Opens the review link and reaches the items it names
+normative: true
+links:
+- target: JRN-0001
+  type: part_of
+- target: PAGE-0004
+  type: 'on'
+attrs:
+  order: 1
+  action: arrives
+  origin: ai

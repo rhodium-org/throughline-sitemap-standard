@@ -1,0 +1,17 @@
+uid: ELM-0004
+type: element
+status: draft
+title: The rail's Log in
+text: The rail's Log in
+normative: true
+links:
+- target: CMP-0002
+  type: composes
+- target: PAGE-0001
+  type: navigates_to
+attrs:
+  kind: button
+  order: 1
+  label: Log in
+  effect: navigates
+  origin: ai

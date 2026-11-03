@@ -1,0 +1,26 @@
+uid: ATTR-0013
+type: attribute
+status: ratified
+title: An element's level
+text: 'An element''s level: Heading level; required on a heading and absent elsewhere.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0005
+  type: has_type
+attrs:
+  name: level
+  required_when: ELM.kind == heading
+  absent_when: ELM.kind != heading
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:45Z'
+  fingerprint: sha256:0b65f86767a464f8b7824bba45ad7d9f9825c4523ef5ac665184dad82882aa05
+  content:
+    type: attribute
+    text: 'An element''s level: Heading level; required on a heading and absent elsewhere.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,15 @@
+uid: APP-0012
+type: appearance
+status: draft
+title: Registers on Registers
+text: Registers on Registers
+normative: true
+links:
+- target: PAGE-0003
+  type: part_of
+- target: CMP-0009
+  type: shows
+attrs:
+  placement: main
+  order: 1
+  origin: ai

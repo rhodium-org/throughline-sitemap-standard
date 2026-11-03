@@ -1,0 +1,26 @@
+uid: ATTR-0019
+type: attribute
+status: ratified
+title: A component's arrangement
+text: 'A component''s arrangement: Arrangement; optional, column when absent. Whether
+  its elements stack or sit side by side.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: ENUM-0006
+  type: has_type
+attrs:
+  name: arrangement
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:46Z'
+  fingerprint: sha256:5194352e33f8640c875e300f1e028a4b907acf2ac2fa7e2794f068011033bdb1
+  content:
+    type: attribute
+    text: 'A component''s arrangement: Arrangement; optional, column when absent.
+      Whether its elements stack or sit side by side.'
+    normative: true
+    derived: false
+    attrs: {}

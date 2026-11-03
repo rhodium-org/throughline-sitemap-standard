@@ -1,0 +1,23 @@
+uid: LT-0003
+type: link_type
+status: ratified
+title: The link type starts_at
+text: 'The site''s home: the page a person arriving at the site''s root reaches.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: starts_at
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:38Z'
+  fingerprint: sha256:32cc8c7b20fd61424ece522a2e077ecd4bb3117dc0508cffdbd1cc5f8b8b49c6
+  content:
+    type: link_type
+    text: 'The site''s home: the page a person arriving at the site''s root reaches.'
+    normative: true
+    derived: false
+    attrs: {}

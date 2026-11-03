@@ -1,0 +1,22 @@
+uid: TYPE-0003
+type: type
+status: ratified
+title: Flag
+text: Yes or no.
+normative: true
+links:
+- target: meta:BASE-0005
+  type: has_type
+  stamp: sha256:e5b586e1cc96ea6805da06f306c35e982532ba7a37155a2a9cb6f87ace3d4e95
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:55Z'
+  fingerprint: sha256:edad3a586a59cd684448d4e94b23d905fc8a445b67ce3eb2582a3c7b214be260
+  content:
+    type: type
+    text: Yes or no.
+    normative: true
+    derived: false
+    attrs: {}

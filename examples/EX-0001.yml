@@ -1,0 +1,67 @@
+uid: EX-0001
+type: example
+status: ratified
+title: A site that follows every declaration
+text: 'conformance/full-site describes part of table.iddn.uk: two roles, four pages,
+  a shared bar, rail and settings panel placed by appearances (the panel second among
+  the overlays on Items, first elsewhere), boards inside sections, one journey of
+  four steps, a reason needed only to reject, and its own requirements register related
+  to by a component and an element. tl check passes.'
+normative: true
+links:
+- target: LINK-0001
+  type: verifies
+- target: LINK-0003
+  type: verifies
+- target: LINK-0004
+  type: verifies
+- target: LINK-0006
+  type: verifies
+- target: LINK-0009
+  type: verifies
+- target: LINK-0010
+  type: verifies
+- target: LINK-0012
+  type: verifies
+- target: ATTR-0003
+  type: verifies
+- target: ATTR-0006
+  type: verifies
+- target: LINK-0014
+  type: verifies
+- target: LINK-0015
+  type: verifies
+- target: LINK-0016
+  type: verifies
+- target: LINK-0017
+  type: verifies
+- target: LINK-0018
+  type: verifies
+- target: LINK-0019
+  type: verifies
+- target: LINK-0020
+  type: verifies
+- target: LINK-0021
+  type: verifies
+- target: LINK-0022
+  type: verifies
+- target: ATTR-0023
+  type: verifies
+- target: LINK-0023
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:56Z'
+  fingerprint: sha256:0b16929a05c1316118050e6bccdd1db83cc0d5f6f325e6bf9f5906561985af2f
+  content:
+    type: example
+    text: 'conformance/full-site describes part of table.iddn.uk: two roles, four
+      pages, a shared bar, rail and settings panel placed by appearances (the panel
+      second among the overlays on Items, first elsewhere), boards inside sections,
+      one journey of four steps, a reason needed only to reject, and its own requirements
+      register related to by a component and an element. tl check passes.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,15 @@
+uid: APP-0009
+type: appearance
+status: draft
+title: Log in on Log in
+text: Log in on Log in
+normative: true
+links:
+- target: PAGE-0001
+  type: part_of
+- target: CMP-0004
+  type: shows
+attrs:
+  placement: main
+  order: 1
+  origin: ai

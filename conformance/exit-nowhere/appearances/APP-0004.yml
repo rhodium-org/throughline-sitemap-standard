@@ -1,0 +1,15 @@
+uid: APP-0004
+type: appearance
+status: draft
+title: The rail on Projects
+text: The rail on Projects
+normative: true
+links:
+- target: PAGE-0002
+  type: part_of
+- target: CMP-0002
+  type: shows
+attrs:
+  placement: nav
+  order: 1
+  origin: ai

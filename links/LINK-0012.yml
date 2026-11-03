@@ -1,0 +1,27 @@
+uid: LINK-0012
+type: link
+status: ratified
+title: A step that presses, types or chooses is done to an element.
+text: A step that presses, types or chooses is done to an element.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0007
+  type: via
+attrs:
+  min: 1
+  from_when: STEP.action in (presses, types, chooses)
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:52Z'
+  fingerprint: sha256:1a4f4c2265f159d5099bea0fe6527c9cdbbc8c2de4551bda6e262ff0c2bab86f
+  content:
+    type: link
+    text: A step that presses, types or chooses is done to an element.
+    normative: true
+    derived: false
+    attrs: {}

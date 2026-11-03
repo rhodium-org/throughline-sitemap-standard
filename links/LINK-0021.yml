@@ -1,0 +1,28 @@
+uid: LINK-0021
+type: link
+status: ratified
+title: A page is open to the roles that may reach it; one open to none is open to
+  anyone.
+text: A page is open to the roles that may reach it; one open to none is open to
+  anyone.
+normative: true
+links:
+- target: REG-0002
+  type: from
+- target: REG-0009
+  type: to
+- target: LT-0011
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:54Z'
+  fingerprint: sha256:d258b452fee52f0bda139c36ec5428dc4da0a9245ea4c79f4fa0061ddafd33a5
+  content:
+    type: link
+    text: A page is open to the roles that may reach it; one open to none is open
+      to anyone.
+    normative: true
+    derived: false
+    attrs: {}

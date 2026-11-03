@@ -1,0 +1,12 @@
+uid: CMP-0007
+type: component
+status: draft
+title: Projects
+text: The projects this browser can reach.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: section
+  origin: ai

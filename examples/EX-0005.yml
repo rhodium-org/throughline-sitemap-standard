@@ -1,0 +1,23 @@
+uid: EX-0005
+type: example
+status: ratified
+title: A site with two homes
+text: conformance/two-homes holds a site that starts at two pages. tl check reports
+  that it allows one.
+normative: true
+links:
+- target: LINK-0001
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:58Z'
+  fingerprint: sha256:2aeb8c8bc3b4e20ac8f9299570e285e44d8675499185c0552409498cd71fd2ce
+  content:
+    type: example
+    text: conformance/two-homes holds a site that starts at two pages. tl check reports
+      that it allows one.
+    normative: true
+    derived: false
+    attrs: {}

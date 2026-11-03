@@ -1,0 +1,15 @@
+uid: CMP-0008
+type: component
+status: draft
+title: Projects you can see
+text: One card per project.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: CMP-0007
+  type: composes
+attrs:
+  kind: board
+  order: 2
+  origin: ai

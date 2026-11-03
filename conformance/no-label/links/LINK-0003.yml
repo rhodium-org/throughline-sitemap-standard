@@ -1,0 +1,18 @@
+uid: LINK-0003
+type: link
+status: draft
+title: An element relates to the requirements it serves.
+text: An element relates to the requirements it serves.
+normative: true
+links:
+- target: sitemap:REG-0004
+  type: from
+  stamp: sha256:5de48070df1d4a5563959cf70c3e318390997097b34482ab9ea3c94ac8aba34e
+- target: REG-0001
+  type: to
+- target: sitemap:LT-0010
+  type: via
+  stamp: sha256:4dc24c7aa7abf0b93adade31480c99437a3c3620d398450c6d8056501f1a7cd6
+attrs:
+  scope: this-graph
+  origin: ai

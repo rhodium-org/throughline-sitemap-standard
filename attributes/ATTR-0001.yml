@@ -1,0 +1,25 @@
+uid: ATTR-0001
+type: attribute
+status: ratified
+title: A site's name
+text: 'A site''s name: Line; always.'
+normative: true
+links:
+- target: REG-0001
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: name
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:42Z'
+  fingerprint: sha256:2e4190a54cdb6c5ab355d2dc2254d624ce509bbd40572b0bb35c6f033be06a8a
+  content:
+    type: attribute
+    text: 'A site''s name: Line; always.'
+    normative: true
+    derived: false
+    attrs: {}

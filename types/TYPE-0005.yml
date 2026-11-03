@@ -1,0 +1,24 @@
+uid: TYPE-0005
+type: type
+status: ratified
+title: Heading level
+text: A whole number from 1 to 6, as HTML numbers headings.
+normative: true
+links:
+- target: meta:BASE-0003
+  type: has_type
+  stamp: sha256:503de73fbcfdef2d2bf4aba72749defe4a13823d6c73bbbd5e77d758b68cf381
+attrs:
+  min: '1'
+  max: '6'
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:56Z'
+  fingerprint: sha256:d94732a637548113f8b606ba4adc0736709db9bcdaea13373729528ad20d3d3c
+  content:
+    type: type
+    text: A whole number from 1 to 6, as HTML numbers headings.
+    normative: true
+    derived: false
+    attrs: {}

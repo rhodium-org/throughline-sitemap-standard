@@ -1,0 +1,29 @@
+uid: LINK-0004
+type: link
+status: ratified
+title: An element is part of exactly one component or element.
+text: An element is part of exactly one component or element.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0003
+  type: to
+- target: REG-0004
+  type: to
+- target: LT-0002
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:50Z'
+  fingerprint: sha256:fe008eaad6af55f6779dee7afe2923ad4916779f5fc757662e54721e7bdf428e
+  content:
+    type: link
+    text: An element is part of exactly one component or element.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,15 @@
+uid: SITE-0001
+type: site
+status: draft
+title: table.iddn.uk
+text: Read and decide the items of a throughline graph.
+normative: true
+links:
+- target: PAGE-0002
+  type: starts_at
+- target: PAGE-0004
+  type: starts_at
+attrs:
+  name: table.iddn.uk
+  url: https://table.iddn.uk
+  origin: ai

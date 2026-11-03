@@ -1,0 +1,25 @@
+uid: TYPE-0006
+type: type
+status: ratified
+title: Route
+text: The path a page is reached at, from the site's root, starting /. A part in
+  braces, {project}, stands for any value.
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+  stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
+attrs:
+  pattern: ^/[A-Za-z0-9._~/:#?=&{}-]*$
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:56Z'
+  fingerprint: sha256:3dcb578477bcac13ce3e6f42ebdf7cdc293a496e56709a2ccec9c704604af8e3
+  content:
+    type: type
+    text: The path a page is reached at, from the site's root, starting /. A part
+      in braces, {project}, stands for any value.
+    normative: true
+    derived: false
+    attrs: {}

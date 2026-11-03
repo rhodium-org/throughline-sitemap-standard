@@ -1,0 +1,23 @@
+uid: LT-0006
+type: link_type
+status: ratified
+title: The link type on
+text: The step happens on the page.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: 'on'
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:39Z'
+  fingerprint: sha256:4e81b612cf8c3c510e839b833dd49a7f9dee9bec3912b29a6f0b6b64a2f92f7e
+  content:
+    type: link_type
+    text: The step happens on the page.
+    normative: true
+    derived: false
+    attrs: {}

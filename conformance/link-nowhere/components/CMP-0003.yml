@@ -1,0 +1,12 @@
+uid: CMP-0003
+type: component
+status: draft
+title: 'This browser: the settings'
+text: The look, the words and the language.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  kind: panel
+  origin: ai

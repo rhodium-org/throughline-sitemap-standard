@@ -1,0 +1,15 @@
+uid: ELM-0011
+type: element
+status: draft
+title: Sign in with GitHub
+text: Sign in with GitHub
+normative: true
+links:
+- target: ELM-0009
+  type: composes
+attrs:
+  kind: button
+  order: 2
+  label: Sign in with GitHub
+  emphasis: primary
+  origin: ai

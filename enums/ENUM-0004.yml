@@ -1,0 +1,23 @@
+uid: ENUM-0004
+type: enum
+status: ratified
+title: Emphasis
+text: 'One of: primary, secondary, destructive.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+  stamp: sha256:8a5668eb1de8165aaf9a743f44afa695efaf2bfda5a532a8542f5d18764df51e
+attrs:
+  values: primary, secondary, destructive
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:48Z'
+  fingerprint: sha256:5af96ad52ccf47ab250a675fcb142766b9bdd4a8f181f233359ed1a81d22dbd2
+  content:
+    type: enum
+    text: 'One of: primary, secondary, destructive.'
+    normative: true
+    derived: false
+    attrs: {}

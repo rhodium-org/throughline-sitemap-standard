@@ -1,0 +1,29 @@
+uid: ATTR-0006
+type: attribute
+status: ratified
+title: An appearance's placement
+text: 'An appearance''s placement: Placement; always. The region of the page the
+  component is drawn in there, named as HTML''s landmark elements are, and overlay
+  for what is drawn over the page.'
+normative: true
+links:
+- target: ENUM-0001
+  type: has_type
+- target: REG-0008
+  type: belongs_to
+attrs:
+  name: placement
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:43Z'
+  fingerprint: sha256:c92fd5218183dd88d7a1d7b7ef7a1a90ab7905cc770f804a015e5d685adf15f4
+  content:
+    type: attribute
+    text: 'An appearance''s placement: Placement; always. The region of the page
+      the component is drawn in there, named as HTML''s landmark elements are, and
+      overlay for what is drawn over the page.'
+    normative: true
+    derived: false
+    attrs: {}

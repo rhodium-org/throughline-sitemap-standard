@@ -1,0 +1,17 @@
+uid: ELM-0007
+type: element
+status: draft
+title: The rail's Items
+text: The rail's Items
+normative: true
+links:
+- target: CMP-0002
+  type: composes
+- target: PAGE-0004
+  type: navigates_to
+attrs:
+  kind: button
+  order: 4
+  label: Items
+  effect: navigates
+  origin: ai

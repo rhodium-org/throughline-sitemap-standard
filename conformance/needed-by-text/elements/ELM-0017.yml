@@ -1,0 +1,14 @@
+uid: ELM-0017
+type: element
+status: draft
+title: Registers
+text: Registers
+normative: true
+links:
+- target: CMP-0009
+  type: composes
+attrs:
+  kind: heading
+  order: 1
+  level: 2
+  origin: ai

@@ -1,0 +1,32 @@
+uid: REG-0003
+type: register
+status: ratified
+title: Components live in CMP
+text: 'A follower holds its components in CMP, folder components/: a part of the
+  site with one job — a section, a bar, a board, a panel — shown on pages by appearances,
+  or inside another component. A component shown on several pages is one item.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: CMP
+  dir: components
+  holds: component
+  label: Components
+  scope: followers
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:41Z'
+  fingerprint: sha256:48ce6b0528449e1924b6c41979456ff95ba8eb05f9e88a1cd94d49ad757b15bc
+  content:
+    type: register
+    text: 'A follower holds its components in CMP, folder components/: a part of
+      the site with one job — a section, a bar, a board, a panel — shown on pages
+      by appearances, or inside another component. A component shown on several pages
+      is one item.'
+    normative: true
+    derived: false
+    attrs: {}

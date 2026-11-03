@@ -1,0 +1,30 @@
+uid: REG-0001
+type: register
+status: ratified
+title: The site lives in SITE
+text: 'A follower holds exactly one site, in SITE, folder site/: the website the
+  graph describes. Every other item reaches it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SITE
+  dir: site
+  holds: site
+  label: Site
+  scope: followers
+  exactly_one: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:40Z'
+  fingerprint: sha256:2dcec0a0a93eae7fc9d2d05699b6e6123c88bb6f4803a98c9d3a6695ed90c138
+  content:
+    type: register
+    text: 'A follower holds exactly one site, in SITE, folder site/: the website
+      the graph describes. Every other item reaches it.'
+    normative: true
+    derived: false
+    attrs: {}

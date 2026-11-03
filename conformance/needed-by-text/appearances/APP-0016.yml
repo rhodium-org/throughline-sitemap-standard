@@ -1,0 +1,15 @@
+uid: APP-0016
+type: appearance
+status: draft
+title: The settings on Projects
+text: The settings on Projects
+normative: true
+links:
+- target: PAGE-0002
+  type: part_of
+- target: CMP-0003
+  type: shows
+attrs:
+  placement: overlay
+  order: 1
+  origin: ai

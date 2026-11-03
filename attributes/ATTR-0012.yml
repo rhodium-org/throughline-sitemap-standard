@@ -1,0 +1,26 @@
+uid: ATTR-0012
+type: attribute
+status: ratified
+title: An element's emphasis
+text: 'An element''s emphasis: Emphasis; optional, and only on a button or a link.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0004
+  type: has_type
+attrs:
+  name: emphasis
+  absent_when: ELM.kind not in (button, link, external-link)
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:45Z'
+  fingerprint: sha256:db0701a65886229d6978318952b860793a37c5a4728a0fa91905f28a83e4235a
+  content:
+    type: attribute
+    text: 'An element''s emphasis: Emphasis; optional, and only on a button or a
+      link.'
+    normative: true
+    derived: false
+    attrs: {}

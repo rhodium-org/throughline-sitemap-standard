@@ -1,0 +1,25 @@
+uid: ATTR-0004
+type: attribute
+status: ratified
+title: A page's purpose
+text: 'A page''s purpose: Text; optional. What a person comes to it for, in a sentence.'
+normative: true
+links:
+- target: REG-0002
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: purpose
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:43Z'
+  fingerprint: sha256:230c386dca2baa3fe802d30d354507af5a95110e7bc49b60d37b7486d25d2282
+  content:
+    type: attribute
+    text: 'A page''s purpose: Text; optional. What a person comes to it for, in a
+      sentence.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,30 @@
+uid: ATTR-0011
+type: attribute
+status: ratified
+title: An element's label
+text: 'An element''s label: Line; required when it is a control. The words on it,
+  or the name a screen reader announces. A part in braces, {project}, stands for
+  the value that differs between the elements it stands for.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: label
+  required_when: ELM.kind in (button, link, external-link, field, text-area, choice,
+    options, tick-box, tab, menu, fold)
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:45Z'
+  fingerprint: sha256:73b55b65eddadc35833d0857876f64f28e0af377a9d1eb02e7a2c9c296bfaed4
+  content:
+    type: attribute
+    text: 'An element''s label: Line; required when it is a control. The words on
+      it, or the name a screen reader announces. A part in braces, {project}, stands
+      for the value that differs between the elements it stands for.'
+    normative: true
+    derived: false
+    attrs: {}

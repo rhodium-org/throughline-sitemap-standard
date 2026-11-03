@@ -1,0 +1,23 @@
+uid: EX-0007
+type: example
+status: ratified
+title: A button that opens nothing
+text: conformance/opens-nothing holds a button whose effect is opens and that opens
+  no component. tl check reports that it needs one.
+normative: true
+links:
+- target: LINK-0019
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:58Z'
+  fingerprint: sha256:d900ae80053710e77f738cf32e61a7b416375353c0184d05d9f1884aa0df11e3
+  content:
+    type: example
+    text: conformance/opens-nothing holds a button whose effect is opens and that
+      opens no component. tl check reports that it needs one.
+    normative: true
+    derived: false
+    attrs: {}

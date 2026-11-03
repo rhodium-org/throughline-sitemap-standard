@@ -1,0 +1,15 @@
+uid: APP-0018
+type: appearance
+status: draft
+title: The settings on Items
+text: The settings on Items
+normative: true
+links:
+- target: PAGE-0004
+  type: part_of
+- target: CMP-0003
+  type: shows
+attrs:
+  placement: overlay
+  order: 2
+  origin: ai

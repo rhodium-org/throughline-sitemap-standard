@@ -1,0 +1,26 @@
+uid: LINK-0005
+type: link
+status: ratified
+title: An element navigates to at most one page.
+text: An element navigates to at most one page.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0002
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:50Z'
+  fingerprint: sha256:84c62a1530e6ff26882e7391809d74bcf1d972b38e17d954cb16c6608d09f10f
+  content:
+    type: link
+    text: An element navigates to at most one page.
+    normative: true
+    derived: false
+    attrs: {}

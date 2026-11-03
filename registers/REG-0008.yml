@@ -1,0 +1,28 @@
+uid: REG-0008
+type: register
+status: ratified
+title: Appearances live in APP
+text: 'A follower holds its appearances in APP, folder appearances/: one component
+  shown on one page, with where it is placed there.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: APP
+  dir: appearances
+  holds: appearance
+  label: Appearances
+  scope: followers
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:42Z'
+  fingerprint: sha256:1f2bed7567bed6dcc7b4958ffad2c4301acab7d6704ad4448426f952a530f94c
+  content:
+    type: register
+    text: 'A follower holds its appearances in APP, folder appearances/: one component
+      shown on one page, with where it is placed there.'
+    normative: true
+    derived: false
+    attrs: {}

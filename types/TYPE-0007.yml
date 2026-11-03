@@ -1,0 +1,23 @@
+uid: TYPE-0007
+type: type
+status: ratified
+title: Web address
+text: An address on the web, starting http:// or https://.
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+  stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
+attrs:
+  pattern: ^https?://[^ ]+$
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:56Z'
+  fingerprint: sha256:fecd6da9afa26914fc26d48b0a5863b4c4d13eeddea6a1a20c9f46d409d15e8b
+  content:
+    type: type
+    text: An address on the web, starting http:// or https://.
+    normative: true
+    derived: false
+    attrs: {}

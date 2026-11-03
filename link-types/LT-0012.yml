@@ -1,0 +1,23 @@
+uid: LT-0012
+type: link_type
+status: ratified
+title: The link type taken_by
+text: The journey is taken by a person in the role.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: taken_by
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:40Z'
+  fingerprint: sha256:040a3ba423499696b4488849619cf5359ca0c68463eae277b03a86c6ddd77997
+  content:
+    type: link_type
+    text: The journey is taken by a person in the role.
+    normative: true
+    derived: false
+    attrs: {}

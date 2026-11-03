@@ -1,0 +1,26 @@
+uid: LT-0008
+type: link_type
+status: ratified
+title: The link type verifies
+text: 'An example shows a declaration holds: a conforming graph passes tl check,
+  a broken one fails it for that declaration. It grounds.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: verifies
+  grounds: true
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:39Z'
+  fingerprint: sha256:f68a8f67486025410b48fa83afdd23e8790bfa2b356f864e3a637b8f835b1749
+  content:
+    type: link_type
+    text: 'An example shows a declaration holds: a conforming graph passes tl check,
+      a broken one fails it for that declaration. It grounds.'
+    normative: true
+    derived: false
+    attrs: {}

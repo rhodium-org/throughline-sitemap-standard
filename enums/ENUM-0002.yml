@@ -1,0 +1,23 @@
+uid: ENUM-0002
+type: enum
+status: ratified
+title: Component kind
+text: 'One of: section, bar, strip, board, panel, dialog.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+  stamp: sha256:8a5668eb1de8165aaf9a743f44afa695efaf2bfda5a532a8542f5d18764df51e
+attrs:
+  values: section, bar, strip, board, panel, dialog
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:48Z'
+  fingerprint: sha256:cbd7bc803b4c971693e5d9813cedf4b986c31ce0dea044b387cdbe84cfb3c046
+  content:
+    type: enum
+    text: 'One of: section, bar, strip, board, panel, dialog.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,28 @@
+uid: ATTR-0023
+type: attribute
+status: ratified
+title: An element's effect
+text: 'An element''s effect: Effect; required on a button and absent elsewhere. What
+  pressing it does.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0007
+  type: has_type
+attrs:
+  name: effect
+  required_when: ELM.kind == button
+  absent_when: ELM.kind != button
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:47Z'
+  fingerprint: sha256:5dea3889ceee7533455948df70fee0ea41df5519a2cce6b0f28b4c16362e02f6
+  content:
+    type: attribute
+    text: 'An element''s effect: Effect; required on a button and absent elsewhere.
+      What pressing it does.'
+    normative: true
+    derived: false
+    attrs: {}

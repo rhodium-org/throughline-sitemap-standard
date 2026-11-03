@@ -1,0 +1,14 @@
+uid: ELM-0015
+type: element
+status: draft
+title: Projects
+text: Projects
+normative: true
+links:
+- target: CMP-0007
+  type: composes
+attrs:
+  kind: heading
+  order: 1
+  level: 2
+  origin: ai

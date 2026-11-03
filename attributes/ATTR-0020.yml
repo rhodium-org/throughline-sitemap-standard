@@ -1,0 +1,27 @@
+uid: ATTR-0020
+type: attribute
+status: ratified
+title: An element's arrangement
+text: 'An element''s arrangement: Arrangement; optional, column when absent, and
+  only on an element that holds others.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0006
+  type: has_type
+attrs:
+  name: arrangement
+  absent_when: ELM.kind not in (tabs, menu, fold, row, list, form, controls, options)
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-03T21:53:47Z'
+  fingerprint: sha256:f3e1413d7dd77ac9dde0ce113fe77ee9f73ee0e7cf46d3c9ed87bde70d166ee2
+  content:
+    type: attribute
+    text: 'An element''s arrangement: Arrangement; optional, column when absent,
+      and only on an element that holds others.'
+    normative: true
+    derived: false
+    attrs: {}

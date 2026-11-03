@@ -1,0 +1,11 @@
+uid: ROLE-0002
+type: role
+status: draft
+title: A person with GitHub access
+text: Someone whose GitHub access reaches the repositories they choose from.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  origin: ai
