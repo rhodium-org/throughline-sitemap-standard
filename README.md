@@ -19,7 +19,7 @@ A site's graph names this repository as its schema source:
 [[sources]]
 namespace = "sitemap"
 url = "https://github.com/rhodium-org/throughline-sitemap-standard"
-ref = "v1.2.0"
+ref = "v1.3.0"
 schema = true
 ```
 
