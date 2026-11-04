@@ -1,6 +1,6 @@
 uid: LINK-0024
 type: link
-status: proposed
+status: ratified
 title: An element is shown only to the roles it is open to; one open to none is shown
   to anyone who sees its page.
 text: An element is shown only to the roles it is open to; one open to none is shown
@@ -15,3 +15,15 @@ links:
   type: via
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-04T18:01:19Z'
+  fingerprint: sha256:2233f51f388c5cf259291df814335a48cfa2d9a66bae44ffb646b630eb9d33e9
+  content:
+    type: link
+    text: An element is shown only to the roles it is open to; one open to none is
+      shown to anyone who sees its page.
+    normative: true
+    derived: false
+    attrs: {}
