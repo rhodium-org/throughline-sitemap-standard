@@ -1,0 +1,19 @@
+uid: ELM-0012
+type: element
+status: draft
+title: Forget
+text: Forget
+normative: true
+links:
+- target: CMP-0005
+  type: composes
+- target: CMP-0006
+  type: opens
+attrs:
+  kind: button
+  order: 1
+  label: Forget
+  emphasis: destructive
+  effect: opens
+  repeats: true
+  origin: ai

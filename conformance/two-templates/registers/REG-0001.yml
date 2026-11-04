@@ -1,0 +1,15 @@
+uid: REG-0001
+type: register
+status: draft
+title: Requirements live in REQ
+text: This graph holds its own requirements in REQ, folder requirements/.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  prefix: REQ
+  dir: requirements
+  holds: requirement
+  scope: this-graph
+  origin: ai

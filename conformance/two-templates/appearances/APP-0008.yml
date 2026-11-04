@@ -1,0 +1,15 @@
+uid: APP-0008
+type: appearance
+status: draft
+title: The rail on Items
+text: The rail on Items
+normative: true
+links:
+- target: PAGE-0004
+  type: part_of
+- target: CMP-0002
+  type: shows
+attrs:
+  placement: nav
+  order: 1
+  origin: ai

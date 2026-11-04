@@ -1,0 +1,17 @@
+uid: STEP-0004
+type: step
+status: draft
+title: Ratifies it
+text: Ratifies it
+normative: true
+links:
+- target: JRN-0001
+  type: part_of
+- target: PAGE-0004
+  type: 'on'
+- target: ELM-0023
+  type: acts_on
+attrs:
+  order: 4
+  action: presses
+  origin: ai

@@ -1,0 +1,14 @@
+uid: JRN-0001
+type: journey
+status: draft
+title: A reviewer given a link ratifies an item it names
+text: A reviewer opens a review link sent to them and ratifies one item it names.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: ROLE-0001
+  type: taken_by
+attrs:
+  goal: The item the reviewer opened is ratified.
+  origin: ai

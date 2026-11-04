@@ -33,4 +33,5 @@ expect_fail opens-nothing  "has 0 opens link(s) to CMP"
 expect_fail needed-by-text "has 1 needed_by link(s) to ELM"
 expect_fail choices-on-text "choices must be absent when ELM.kind not in"
 expect_fail prefilled-text  "prefilled must be absent when ELM.kind not in"
+expect_fail two-templates   "has 2 like link(s) to CMP"
 exit $fail

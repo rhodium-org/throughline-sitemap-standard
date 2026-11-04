@@ -1,0 +1,12 @@
+uid: EX-0011
+type: example
+status: proposed
+title: A component like two templates
+text: conformance/two-templates holds a board like two components. tl check reports
+  that a component is like at most one.
+normative: true
+links:
+- target: LINK-0025
+  type: verifies
+attrs:
+  origin: ai

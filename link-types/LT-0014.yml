@@ -1,0 +1,16 @@
+uid: LT-0014
+type: link_type
+status: proposed
+title: The link type like
+text: 'A component is like another: the template whose elements it holds as its own,
+  drawn inside it below its own elements and read by a checker as its. A board like
+  the generic board shows the column names that sort, the tick boxes and the last
+  line without declaring them again. Does not ground.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: like
+  grounds: false
+  origin: ai

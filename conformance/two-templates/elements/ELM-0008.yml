@@ -1,0 +1,14 @@
+uid: ELM-0008
+type: element
+status: draft
+title: Log in
+text: Log in
+normative: true
+links:
+- target: CMP-0004
+  type: composes
+attrs:
+  kind: heading
+  order: 1
+  level: 2
+  origin: ai

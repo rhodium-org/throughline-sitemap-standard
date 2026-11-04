@@ -1,0 +1,14 @@
+uid: CMP-0012
+type: component
+status: draft
+title: The item view
+text: One item in full, with its decision.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: REQ-0001
+  type: relates
+attrs:
+  kind: panel
+  origin: ai
