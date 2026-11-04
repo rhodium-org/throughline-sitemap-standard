@@ -1,6 +1,6 @@
 uid: EX-0011
 type: example
-status: proposed
+status: ratified
 title: A component like two templates
 text: conformance/two-templates holds a board like two components. tl check reports
   that a component is like at most one.
@@ -10,3 +10,15 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-04T21:00:21Z'
+  fingerprint: sha256:74b588b95be2fcb62dd60a91d579f15172b7e3072d6026d662e54da158954946
+  content:
+    type: example
+    text: conformance/two-templates holds a board like two components. tl check reports
+      that a component is like at most one.
+    normative: true
+    derived: false
+    attrs: {}
