@@ -1,0 +1,17 @@
+uid: LINK-0024
+type: link
+status: proposed
+title: An element is shown only to the roles it is open to; one open to none is shown
+  to anyone who sees its page.
+text: An element is shown only to the roles it is open to; one open to none is shown
+  to anyone who sees its page.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: REG-0009
+  type: to
+- target: LT-0011
+  type: via
+attrs:
+  origin: ai

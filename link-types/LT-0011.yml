@@ -2,7 +2,10 @@ uid: LT-0011
 type: link_type
 status: ratified
 title: The link type open_to
-text: The page can be reached by a person in the role.
+text: The page can be reached, or the element is shown, only by a person in the role.
+rationale: 'v1.2: an element may be open to roles too, so a sitemap can say the Administer
+  link is shown only to administrators (rhodium-org/sitemap-checker REQ-0009 flagged
+  it on every page).'
 normative: true
 links:
 - target: INT-0001
