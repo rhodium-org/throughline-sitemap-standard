@@ -1,6 +1,6 @@
 uid: LT-0014
 type: link_type
-status: proposed
+status: ratified
 title: The link type like
 text: 'A component is like another: the template whose elements it holds as its own,
   drawn inside it below its own elements and read by a checker as its. A board like
@@ -14,3 +14,17 @@ attrs:
   name: like
   grounds: false
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-04T21:00:21Z'
+  fingerprint: sha256:241d641776025f6cdaeafa731a6c448cab8867d44e989b4e1fe619ca5dfb6a44
+  content:
+    type: link_type
+    text: 'A component is like another: the template whose elements it holds as its
+      own, drawn inside it below its own elements and read by a checker as its. A
+      board like the generic board shows the column names that sort, the tick boxes
+      and the last line without declaring them again. Does not ground.'
+    normative: true
+    derived: false
+    attrs: {}

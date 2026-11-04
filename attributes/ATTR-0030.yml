@@ -1,6 +1,6 @@
 uid: ATTR-0030
 type: attribute
-status: proposed
+status: ratified
 title: An element's shown if
 text: 'An element''s shown if: Text; optional. The situation in which the element
   shows, in words, where shown_when''s states cannot say it: a sign-in that has run
@@ -21,3 +21,17 @@ links:
 attrs:
   name: shown_if
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-04T21:00:21Z'
+  fingerprint: sha256:ac7ee842c6e32acb13b145098c93145ef79a743fcf228f851d5392287e6ebc51
+  content:
+    type: attribute
+    text: 'An element''s shown if: Text; optional. The situation in which the element
+      shows, in words, where shown_when''s states cannot say it: a sign-in that has
+      run out, a link that invites someone, nothing held that can save. A drawing
+      tool annotates the element with it; no check reads it, since it is words.'
+    normative: true
+    derived: false
+    attrs: {}
