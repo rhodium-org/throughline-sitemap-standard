@@ -1,6 +1,6 @@
 uid: ENUM-0008
 type: enum
-status: proposed
+status: ratified
 title: Answer length
 text: 'One of: short, medium, long.'
 normative: true
@@ -10,3 +10,13 @@ links:
 attrs:
   values: short, medium, long
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:10Z'
+  fingerprint: sha256:f641fac724777cbdb7d0c199f5a87f08b98e0d330509718dde4e64681406dcc4
+  content:
+    type: enum
+    text: 'One of: short, medium, long.'
+    normative: true
+    derived: false
+    attrs: {}

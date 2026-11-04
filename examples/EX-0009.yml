@@ -1,6 +1,6 @@
 uid: EX-0009
 type: example
-status: proposed
+status: ratified
 title: Choices on a piece of text
 text: conformance/choices-on-text gives a piece of text a number of choices. tl check
   reports that choices belongs only on a choice or options.
@@ -10,3 +10,14 @@ links:
   type: verifies
 attrs:
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:11Z'
+  fingerprint: sha256:a5a582394ddce621fcf6c489931ce7f2bf259be519e428b9ecc55bbfb968dc0c
+  content:
+    type: example
+    text: conformance/choices-on-text gives a piece of text a number of choices.
+      tl check reports that choices belongs only on a choice or options.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,6 +1,6 @@
 uid: ATTR-0025
 type: attribute
-status: proposed
+status: ratified
 title: An element's expected count
 text: 'An element''s expected count: Count; only on a list. How many entries it usually
   holds, so a checker can ask for a way to find one among many.'
@@ -14,3 +14,14 @@ attrs:
   name: expected_count
   absent_when: ELM.kind != list
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:46:56Z'
+  fingerprint: sha256:aba72f04219f054a11ed961dfc6c24d54cd82c75283f185d2a9db12da033a93d
+  content:
+    type: attribute
+    text: 'An element''s expected count: Count; only on a list. How many entries
+      it usually holds, so a checker can ask for a way to find one among many.'
+    normative: true
+    derived: false
+    attrs: {}

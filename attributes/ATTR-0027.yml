@@ -1,6 +1,6 @@
 uid: ATTR-0027
 type: attribute
-status: proposed
+status: ratified
 title: An element's prefilled
 text: 'An element''s prefilled: Flag; only on a control a person answers. It holds
   an answer the service worked out when the page opens, which the person may change.'
@@ -14,3 +14,15 @@ attrs:
   name: prefilled
   absent_when: ELM.kind not in (field, text-area, choice, options, tick-box)
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:08Z'
+  fingerprint: sha256:b23eee3593b0aa6f9dc8add3ee98c5e70bafcc4a83a83ad845620990a942a967
+  content:
+    type: attribute
+    text: 'An element''s prefilled: Flag; only on a control a person answers. It
+      holds an answer the service worked out when the page opens, which the person
+      may change.'
+    normative: true
+    derived: false
+    attrs: {}

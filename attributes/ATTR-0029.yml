@@ -1,6 +1,6 @@
 uid: ATTR-0029
 type: attribute
-status: proposed
+status: ratified
 title: A button's while unanswered
 text: 'A button''s while unanswered: While unanswered; only on a button. What the
   button does while a control it needs is unanswered: says which, or cannot be pressed.'
@@ -14,3 +14,15 @@ attrs:
   name: while_unanswered
   absent_when: ELM.kind != button
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:09Z'
+  fingerprint: sha256:a8892711905e97051c8206c073a0b45c90e44e3938a8a7ae95265c28ea0480d5
+  content:
+    type: attribute
+    text: 'A button''s while unanswered: While unanswered; only on a button. What
+      the button does while a control it needs is unanswered: says which, or cannot
+      be pressed.'
+    normative: true
+    derived: false
+    attrs: {}
