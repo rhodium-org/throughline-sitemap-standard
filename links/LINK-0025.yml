@@ -1,0 +1,33 @@
+uid: LINK-0025
+type: link
+status: ratified
+title: A component is like at most one component, its template.
+text: A component is like at most one component, its template.
+rationale: 'Found 4 November 2026, migrating table.iddn.uk: its generic board (the
+  column names that sort, a group''s and a row''s tick boxes, a group''s last line)
+  is declared once and nine boards share it, and the standard had no way to say so,
+  so the generic board stood unshown and each board showed none of its chrome. One
+  template at most, so what a board holds is read from one place; a template may
+  itself be like another.'
+normative: true
+links:
+- target: REG-0003
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0014
+  type: via
+attrs:
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-04T21:00:21Z'
+  fingerprint: sha256:1fc7b5f227b68576983227739fc3cbe34b5a12311455840fde31b5c952d2bfb2
+  content:
+    type: link
+    text: A component is like at most one component, its template.
+    normative: true
+    derived: false
+    attrs: {}

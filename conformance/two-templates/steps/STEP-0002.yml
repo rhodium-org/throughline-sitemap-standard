@@ -1,0 +1,17 @@
+uid: STEP-0002
+type: step
+status: draft
+title: Opens an item
+text: Opens an item
+normative: true
+links:
+- target: JRN-0001
+  type: part_of
+- target: PAGE-0004
+  type: 'on'
+- target: ELM-0021
+  type: acts_on
+attrs:
+  order: 2
+  action: presses
+  origin: ai

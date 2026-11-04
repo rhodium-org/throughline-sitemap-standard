@@ -1,0 +1,11 @@
+uid: REQ-0001
+type: requirement
+status: draft
+title: A reviewer reads an item in full before deciding it
+text: A reviewer can read an item's whole text before ratifying or rejecting it.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+attrs:
+  origin: ai

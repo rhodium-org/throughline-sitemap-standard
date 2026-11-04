@@ -1,0 +1,37 @@
+uid: ATTR-0030
+type: attribute
+status: ratified
+title: An element's shown if
+text: 'An element''s shown if: Text; optional. The situation in which the element
+  shows, in words, where shown_when''s states cannot say it: a sign-in that has run
+  out, a link that invites someone, nothing held that can save. A drawing tool annotates
+  the element with it; no check reads it, since it is words.'
+rationale: 'Found 4 November 2026, migrating table.iddn.uk''s 221 elements to this
+  standard: 31 notices show on a situation (the GitHub sign-in has run out, the review
+  link invites someone, nothing held can save to this project), which shown_when''s
+  four data states cannot say, so a wireframe could not show when they appear. Words,
+  not an enum, because the situations are the page''s own and no checker can judge
+  them; the drawing tool draws them as an annotation beside the element.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: shown_if
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-04T21:00:21Z'
+  fingerprint: sha256:ac7ee842c6e32acb13b145098c93145ef79a743fcf228f851d5392287e6ebc51
+  content:
+    type: attribute
+    text: 'An element''s shown if: Text; optional. The situation in which the element
+      shows, in words, where shown_when''s states cannot say it: a sign-in that has
+      run out, a link that invites someone, nothing held that can save. A drawing
+      tool annotates the element with it; no check reads it, since it is words.'
+    normative: true
+    derived: false
+    attrs: {}
