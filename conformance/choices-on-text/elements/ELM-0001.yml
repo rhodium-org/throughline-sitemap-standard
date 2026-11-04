@@ -1,0 +1,14 @@
+uid: ELM-0001
+type: element
+status: draft
+title: table.iddn.uk
+text: table.iddn.uk
+normative: true
+links:
+- target: CMP-0001
+  type: composes
+attrs:
+  kind: heading
+  order: 1
+  level: 1
+  origin: ai

@@ -1,0 +1,28 @@
+uid: ATTR-0028
+type: attribute
+status: ratified
+title: An element's shown when
+text: 'An element''s shown when: Condition; optional, ready when absent. The state
+  of its component''s content in which the element shows: a notice for an empty list,
+  a placeholder while it loads, a failure in words.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0009
+  type: has_type
+attrs:
+  name: shown_when
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:09Z'
+  fingerprint: sha256:0d8eec161a2ebc57e47d63fb5e2ebb57fbeecf6f80c0745c771a3d65e980b670
+  content:
+    type: attribute
+    text: 'An element''s shown when: Condition; optional, ready when absent. The
+      state of its component''s content in which the element shows: a notice for
+      an empty list, a placeholder while it loads, a failure in words.'
+    normative: true
+    derived: false
+    attrs: {}

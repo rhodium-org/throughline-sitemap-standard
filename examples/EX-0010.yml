@@ -1,0 +1,23 @@
+uid: EX-0010
+type: example
+status: ratified
+title: A piece of text that is prefilled
+text: conformance/prefilled-text marks a piece of text prefilled. tl check reports
+  that only a control a person answers can be.
+normative: true
+links:
+- target: ATTR-0027
+  type: verifies
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:11Z'
+  fingerprint: sha256:738a14be656b4a8b7724fbd314a8d8f9e80aec6e857342ad65718f1e9f5248c3
+  content:
+    type: example
+    text: conformance/prefilled-text marks a piece of text prefilled. tl check reports
+      that only a control a person answers can be.
+    normative: true
+    derived: false
+    attrs: {}

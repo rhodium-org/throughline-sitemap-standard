@@ -1,0 +1,27 @@
+uid: ATTR-0026
+type: attribute
+status: ratified
+title: An element's answer length
+text: 'An element''s answer length: Answer length; only on a field. How long the
+  answer it expects is, so it is drawn that wide.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0008
+  type: has_type
+attrs:
+  name: answer_length
+  absent_when: ELM.kind != field
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:03Z'
+  fingerprint: sha256:1725bc760dd7159e76c5ec1a9246045f4572f8f8168b5fdd1491bfe6c057f54c
+  content:
+    type: attribute
+    text: 'An element''s answer length: Answer length; only on a field. How long
+      the answer it expects is, so it is drawn that wide.'
+    normative: true
+    derived: false
+    attrs: {}

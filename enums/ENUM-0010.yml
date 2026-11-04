@@ -1,0 +1,22 @@
+uid: ENUM-0010
+type: enum
+status: ratified
+title: While unanswered
+text: 'One of: explains, disabled.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: explains, disabled
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:10Z'
+  fingerprint: sha256:efa5db43639743ab6460deaad2a05ae40f7f4045948f1d520342d9aeda6eacf1
+  content:
+    type: enum
+    text: 'One of: explains, disabled.'
+    normative: true
+    derived: false
+    attrs: {}

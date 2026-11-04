@@ -9,6 +9,7 @@ links:
   type: composes
 attrs:
   kind: choice
+  choices: 3
   order: 1
   label: Look
   origin: ai

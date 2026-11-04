@@ -1,0 +1,14 @@
+uid: ELM-0018
+type: element
+status: draft
+title: The graph's registers
+text: The graph's registers
+normative: true
+links:
+- target: CMP-0009
+  type: composes
+attrs:
+  kind: list
+  expected_count: 20
+  order: 2
+  origin: ai

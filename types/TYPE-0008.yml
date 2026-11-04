@@ -1,0 +1,22 @@
+uid: TYPE-0008
+type: type
+status: ratified
+title: Count
+text: 'A whole number from 0: how many there are.'
+normative: true
+links:
+- target: meta:BASE-0003
+  type: has_type
+attrs:
+  min: '0'
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:11Z'
+  fingerprint: sha256:0db33b04712eeb72d8f547d7a3e5c45b6db00f93de6be45febf7384376ddc245
+  content:
+    type: type
+    text: 'A whole number from 0: how many there are.'
+    normative: true
+    derived: false
+    attrs: {}

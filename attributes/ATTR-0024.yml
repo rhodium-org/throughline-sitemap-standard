@@ -1,0 +1,29 @@
+uid: ATTR-0024
+type: attribute
+status: ratified
+title: An element's choices
+text: 'An element''s choices: Count; only on a choice or options. How many choices
+  a person has, as far as the design knows, so a checker can find a choice with only
+  one.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0008
+  type: has_type
+attrs:
+  name: choices
+  absent_when: ELM.kind not in (choice, options)
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:46:48Z'
+  fingerprint: sha256:7001ea6bc7562be73ba5c904733432d4a22f2022c2c20b91d765e6a9dfd21e7f
+  content:
+    type: attribute
+    text: 'An element''s choices: Count; only on a choice or options. How many choices
+      a person has, as far as the design knows, so a checker can find a choice with
+      only one.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,22 @@
+uid: ENUM-0009
+type: enum
+status: ratified
+title: Condition
+text: 'One of: ready, empty, loading, failed.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: ready, empty, loading, failed
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-04T07:47:10Z'
+  fingerprint: sha256:5dec835921cc84f25384b25c379144bce3c2bfc7826fe1771d8417d1c081c8a3
+  content:
+    type: enum
+    text: 'One of: ready, empty, loading, failed.'
+    normative: true
+    derived: false
+    attrs: {}

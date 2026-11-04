@@ -31,4 +31,6 @@ expect_fail two-homes      "has 2 starts_at link(s) to PAGE"
 expect_fail no-effect      "effect is required when ELM.kind == button"
 expect_fail opens-nothing  "has 0 opens link(s) to CMP"
 expect_fail needed-by-text "has 1 needed_by link(s) to ELM"
+expect_fail choices-on-text "choices must be absent when ELM.kind not in"
+expect_fail prefilled-text  "prefilled must be absent when ELM.kind not in"
 exit $fail
