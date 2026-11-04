@@ -1,0 +1,12 @@
+uid: ENUM-0009
+type: enum
+status: proposed
+title: Condition
+text: 'One of: ready, empty, loading, failed.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: ready, empty, loading, failed
+  origin: ai

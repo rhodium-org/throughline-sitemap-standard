@@ -1,0 +1,12 @@
+uid: ENUM-0008
+type: enum
+status: proposed
+title: Answer length
+text: 'One of: short, medium, long.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: short, medium, long
+  origin: ai

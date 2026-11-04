@@ -1,0 +1,12 @@
+uid: TYPE-0008
+type: type
+status: proposed
+title: Count
+text: 'A whole number from 0: how many there are.'
+normative: true
+links:
+- target: meta:BASE-0003
+  type: has_type
+attrs:
+  min: '0'
+  origin: ai

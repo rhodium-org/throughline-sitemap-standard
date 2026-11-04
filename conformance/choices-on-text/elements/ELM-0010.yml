@@ -1,0 +1,14 @@
+uid: ELM-0010
+type: element
+status: draft
+title: GitHub
+text: GitHub
+normative: true
+links:
+- target: ELM-0009
+  type: composes
+attrs:
+  kind: tab
+  order: 1
+  label: GitHub
+  origin: ai

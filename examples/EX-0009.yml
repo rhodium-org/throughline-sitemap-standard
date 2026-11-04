@@ -1,0 +1,12 @@
+uid: EX-0009
+type: example
+status: proposed
+title: Choices on a piece of text
+text: conformance/choices-on-text gives a piece of text a number of choices. tl check
+  reports that choices belongs only on a choice or options.
+normative: true
+links:
+- target: ATTR-0024
+  type: verifies
+attrs:
+  origin: ai

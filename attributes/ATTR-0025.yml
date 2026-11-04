@@ -1,0 +1,16 @@
+uid: ATTR-0025
+type: attribute
+status: proposed
+title: An element's expected count
+text: 'An element''s expected count: Count; only on a list. How many entries it usually
+  holds, so a checker can ask for a way to find one among many.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0008
+  type: has_type
+attrs:
+  name: expected_count
+  absent_when: ELM.kind != list
+  origin: ai

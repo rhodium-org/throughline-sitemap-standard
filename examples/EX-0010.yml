@@ -1,0 +1,12 @@
+uid: EX-0010
+type: example
+status: proposed
+title: A piece of text that is prefilled
+text: conformance/prefilled-text marks a piece of text prefilled. tl check reports
+  that only a control a person answers can be.
+normative: true
+links:
+- target: ATTR-0027
+  type: verifies
+attrs:
+  origin: ai

@@ -1,0 +1,16 @@
+uid: ATTR-0028
+type: attribute
+status: proposed
+title: An element's shown when
+text: 'An element''s shown when: Condition; optional, ready when absent. The state
+  of its component''s content in which the element shows: a notice for an empty list,
+  a placeholder while it loads, a failure in words.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0009
+  type: has_type
+attrs:
+  name: shown_when
+  origin: ai

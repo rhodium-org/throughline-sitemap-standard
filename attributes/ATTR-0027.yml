@@ -1,0 +1,16 @@
+uid: ATTR-0027
+type: attribute
+status: proposed
+title: An element's prefilled
+text: 'An element''s prefilled: Flag; only on a control a person answers. It holds
+  an answer the service worked out when the page opens, which the person may change.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: prefilled
+  absent_when: ELM.kind not in (field, text-area, choice, options, tick-box)
+  origin: ai

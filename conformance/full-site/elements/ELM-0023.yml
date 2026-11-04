@@ -9,6 +9,7 @@ links:
   type: composes
 attrs:
   kind: button
+  while_unanswered: explains
   order: 2
   label: Ratify
   emphasis: primary

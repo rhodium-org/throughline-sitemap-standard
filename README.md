@@ -19,7 +19,7 @@ A site's graph names this repository as its schema source:
 [[sources]]
 namespace = "sitemap"
 url = "https://github.com/rhodium-org/throughline-sitemap-standard"
-ref = "v1.0.0"
+ref = "v1.1.0"
 schema = true
 ```
 
@@ -38,7 +38,7 @@ an error. Needs throughline 4.6.2 or later.
 | Pages | PAGE | a place a person can be | `route` (`/…`, `{param}` for any value; none = cannot be linked to), `purpose` | `derives_from` → the SITE; `part_of` → ≤ 1 parent PAGE (none = under home); `open_to` → the ROLEs that may reach it (none = anyone) |
 | Components | CMP | a part of the site with one job: section, bar, strip, board, panel, dialog | `kind`*, `arrangement` (column, row), `label`, `order` (inside another component only) | `derives_from` → the SITE; `composes` → ≤ 1 parent CMP |
 | Appearances | APP | one component shown on one page, and where | `placement`* (header, nav, main, aside, footer, overlay), `order`* | `part_of` → exactly 1 PAGE, every PAGE has ≥ 1; `shows` → exactly 1 CMP |
-| Elements | ELM | one thing a person reads or acts on, or a group of them | `kind`* (21 values), `order`*, `label` (every control; `{part}` = what differs), `effect` (every button: navigates, opens, closes, submits, changes, copies, downloads, uploads), `url` (external links), `emphasis`, `level` (headings), `mandatory` (always answered), `arrangement` (groups), `repeats` | `composes` → exactly 1 CMP or ELM; `needed_by` → the buttons that need it answered (answerable controls only); `navigates_to` → ≤ 1 PAGE, required on a link and on a button that navigates; `opens` → ≤ 1 CMP, required on a button that opens |
+| Elements | ELM | one thing a person reads or acts on, or a group of them | `kind`* (21 values), `order`*, `label` (every control; `{part}` = what differs), `effect` (every button: navigates, opens, closes, submits, changes, copies, downloads, uploads), `url` (external links), `emphasis`, `level` (headings), `mandatory` (always answered), `arrangement` (groups), `repeats`, `choices` (choice, options), `expected_count` (lists), `answer_length` (fields), `prefilled` (answerable controls), `shown_when` (ready, empty, loading, failed), `while_unanswered` (buttons: explains, disabled) | `composes` → exactly 1 CMP or ELM; `needed_by` → the buttons that need it answered (answerable controls only); `navigates_to` → ≤ 1 PAGE, required on a link and on a button that navigates; `opens` → ≤ 1 CMP, required on a button that opens |
 | Journeys | JRN | one path one kind of person takes, arriving to done; another path is another journey | `goal`* | `derives_from` → the SITE; `taken_by` → exactly 1 ROLE |
 | Steps | STEP | one thing done, on one page, in order | `order`*, `action`* (arrives, reads, presses, types, chooses, waits) | `part_of` → exactly 1 JRN, every JRN has ≥ 2; `on` → exactly 1 PAGE; `acts_on` → ≤ 1 ELM, exactly 1 when it presses, types or chooses |
 
@@ -103,6 +103,12 @@ conformance example. Checks that need a walk, a count or a threshold are the che
 | Every overlay is opened by something; a `dialog` is placed `overlay` | checker | incoming `opens`; kind against placement |
 | Orders unique among siblings; labels unique within a component | checker | count |
 | A menu holds ≤ 7 options; a form ≤ N fields | checker | count |
+| A choice with fewer than two choices is not shown | checker | `choices` < 2 |
+| A list expected to hold more than a screenful has a field to find an entry | checker | `expected_count` against a sibling field |
+| A field is drawn as wide as the answer it expects | drawing | `answer_length` |
+| In a form, the fields only the person can answer come before the prefilled ones | checker | `prefilled`, `order` |
+| A button never waits, unpressable, for an answer | checker | `while_unanswered: disabled` |
+| A list says what it holds when empty, and holds its place while it loads | checker | a sibling `shown_when: empty` and `shown_when: loading` |
 | `part_of` has no cycle and agrees with route prefixes | checker | walk |
 | Each journey's steps are 1..n; each step's element is on its page; each next page is this one or where this step's element leads | checker | walk |
 
@@ -122,12 +128,12 @@ deterministic drawing can evaluate one).
 |---|---|
 | `vision/` INT | 1 |
 | `registers/` REG | 9: SITE, ROLE, PAGE, CMP, APP, ELM, JRN, STEP for followers; EX for this graph |
-| `types/` TYPE | 7: Line, Text, Flag, Position, Heading level, Route, Web address |
-| `enums/` ENUM | 7: Placement, Component kind, Element kind, Emphasis, Step action, Arrangement, Effect |
-| `attributes/` ATTR | 23 |
+| `types/` TYPE | 8: Line, Text, Flag, Position, Heading level, Route, Web address, Count |
+| `enums/` ENUM | 10: Placement, Component kind, Element kind, Emphasis, Step action, Arrangement, Effect, Answer length, Condition, While unanswered |
+| `attributes/` ATTR | 29 |
 | `link-types/` LT | 13: part_of, composes, verifies (ground); starts_at, navigates_to, opens, on, acts_on, shows, relates, open_to, taken_by, needed_by (do not) |
 | `links/` LINK | 23 live |
-| `examples/` EX | 8, one per conformance graph |
-| `conformance/` | `full-site` (table.iddn.uk in part: 2 roles, 4 pages, 12 components, 18 appearances, 25 elements, 1 journey of 4 steps, 1 requirement) passes; `no-label`, `link-nowhere`, `exit-nowhere`, `two-homes`, `no-effect`, `opens-nothing`, `needed-by-text` each break one declaration and fail for that one reason. `./conformance/check.sh` runs them. |
+| `examples/` EX | 10, one per conformance graph |
+| `conformance/` | `full-site` (table.iddn.uk in part: 2 roles, 4 pages, 12 components, 18 appearances, 25 elements, 1 journey of 4 steps, 1 requirement) passes; `no-label`, `link-nowhere`, `exit-nowhere`, `two-homes`, `no-effect`, `opens-nothing`, `needed-by-text`, `choices-on-text`, `prefilled-text` each break one declaration and fail for that one reason. `./conformance/check.sh` runs them. |
 
 Needs throughline 4.6.2 or later.

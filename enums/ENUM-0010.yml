@@ -1,0 +1,12 @@
+uid: ENUM-0010
+type: enum
+status: proposed
+title: While unanswered
+text: 'One of: explains, disabled.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+attrs:
+  values: explains, disabled
+  origin: ai

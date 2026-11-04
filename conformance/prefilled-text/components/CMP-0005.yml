@@ -1,0 +1,15 @@
+uid: CMP-0005
+type: component
+status: draft
+title: The sign-ins this browser keeps
+text: One row per kept sign-in.
+normative: true
+links:
+- target: SITE-0001
+  type: derives_from
+- target: CMP-0004
+  type: composes
+attrs:
+  kind: board
+  order: 3
+  origin: ai
