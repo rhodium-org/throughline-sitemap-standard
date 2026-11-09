@@ -15,29 +15,13 @@ schema = true
 
 [grounding]
 # A follower's one site is its root; everything else reaches it.
-root_types = ["intent", "site"]
-delivery_roots = ["intent", "site"]
-ai_origins = ["ai", "hybrid"]
+root_types = ["site"]
+delivery_roots = ["site"]
 
 [status]
 # draft = actively moving toward approval; deferred = acknowledged and grounded
 # but deliberately parked (a backlog wish-list item, not on the active front).
-values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
-          "verified", "suspect", "rejected", "deleted"]
-
-# Semantic status roles (SR-0131): which declared status plays each role the
-# tool's operations act on — `tl new` births at 'initial', `tl ratify` writes
-# 'ratified', `tl invalidate` writes 'invalidated' and reads 'invalidated' +
-# 'tombstone' as dead, `tl delete` writes 'tombstone'. Operations resolve status
-# through these roles, never a literal, so a project renames a status freely by
-# editing here. Delete this table only if you drive every status move by hand.
-[status.roles]
-initial = "draft"
-proposed = "proposed"
-ratified = "ratified"
-invalidated = "rejected"
-suspect = "suspect"
-tombstone = "deleted"
+values = ["deferred", "approved", "implemented", "verified"]
 
 # Allowed status moves (SR-0083). `tl check` compares each item against its
 # status in the previous commit and flags any change these do not permit. Delete
