@@ -5,12 +5,13 @@ name = "Sitemap standard (throughline source)"
 format_version = 4
 suggested_namespace = "sitemap"
 
-# The meta-standard: the declaration kinds (REG, TYPE, ENUM, ATTR, LINK, LT, INT)
+# The meta-standard: the declaration kinds (REG, TYPE, ENUM, ATTR, LINK, LT, INT,
+# GUIDE)
 # and the base types every TYPE and ENUM builds on.
 [[sources]]
 namespace = "meta"
 url = "https://github.com/rhodium-org/throughline-standard-standard"
-ref = "v1.0.0"
+ref = "v1.1.0"
 schema = true
 
 [grounding]

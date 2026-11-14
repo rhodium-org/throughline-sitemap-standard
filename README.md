@@ -26,8 +26,14 @@ schema = true
 The graph is then checked against the declarations held here as items — registers,
 types, value sets, attributes, links and link types — which follow the meta-standard
 [rhodium-org/throughline-standard-standard](https://github.com/rhodium-org/throughline-standard-standard)
-`v1.0.0` (namespace `meta`). Anything a site's graph holds that no declaration names is
+`v1.1.0` (namespace `meta`). Anything a site's graph holds that no declaration names is
 an error. Needs throughline 4.6.2 or later.
+
+Started with `tl init --from-schema` (throughline 5.4.0 or later), a new graph also
+takes a copy of [`guidance/sitemap-guidance.md`](guidance/sitemap-guidance.md): the
+order to write a graph in and the rules below that `tl check` cannot enforce. Init
+makes `AGENTS.md` and `CLAUDE.md` refer to it, so an AI agent reads it before it
+writes.
 
 ## What a follower holds
 
@@ -130,11 +136,12 @@ deterministic drawing can evaluate one).
 |---|---|
 | `vision/` INT | 1 |
 | `registers/` REG | 9: SITE, ROLE, PAGE, CMP, APP, ELM, JRN, STEP for followers; EX for this graph |
+| `guidance/` GUIDE | 1: `sitemap-guidance.md`, which a new follower copies |
 | `types/` TYPE | 8: Line, Text, Flag, Position, Heading level, Route, Web address, Count |
 | `enums/` ENUM | 10: Placement, Component kind, Element kind, Emphasis, Step action, Arrangement, Effect, Answer length, Condition, While unanswered |
 | `attributes/` ATTR | 29 |
 | `link-types/` LT | 13: part_of, composes, verifies (ground); starts_at, navigates_to, opens, on, acts_on, shows, relates, open_to, taken_by, needed_by (do not) |
-| `links/` LINK | 24 live |
+| `links/` LINK | 25 live |
 | `examples/` EX | 10, one per conformance graph |
 | `conformance/` | `full-site` (table.iddn.uk in part: 2 roles, 4 pages, 12 components, 18 appearances, 25 elements, 1 journey of 4 steps, 1 requirement) passes; `no-label`, `link-nowhere`, `exit-nowhere`, `two-homes`, `no-effect`, `opens-nothing`, `needed-by-text`, `choices-on-text`, `prefilled-text` each break one declaration and fail for that one reason. `./conformance/check.sh` runs them. |
 

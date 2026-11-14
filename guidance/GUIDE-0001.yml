@@ -1,0 +1,23 @@
+uid: GUIDE-0001
+type: guidance
+status: proposed
+title: How to write a sitemap graph
+text: 'The authoring guidance a sitemap graph copies: the order to write a graph
+  in, and the rules tl check cannot enforce, which the design checker tests.'
+rationale: 'tl context gives an agent the declarations, and tl check holds a graph
+  to them. What a graph must also satisfy (every page reachable from home, one primary
+  action a page, a journey''s role able to reach each of its pages) is tested only
+  by the design checker, after the graph is pushed, so an agent learns it from a
+  failure. The standard ships those rules as guidance that tl init copies into each
+  new sitemap graph. Kept out of the declarations because each needs a walk, a count
+  or a threshold that a declaration cannot state. Who pays: the keeper keeps this
+  file in step with the checker''s table in the README, and signs again after changing
+  it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  file: guidance/sitemap-guidance.md
+  copy_to: sitemap-guidance.md
+  origin: ai
