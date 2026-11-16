@@ -2,8 +2,9 @@ uid: GUIDE-0001
 type: guidance
 status: ratified
 title: How to write a sitemap graph
-text: 'The authoring guidance a sitemap graph copies: the order to write a graph
-  in, and the rules tl check cannot enforce, which the design checker tests.'
+text: 'The authoring guidance a sitemap graph copies, as sitemap-guidance.md at its
+  root: the order to write a graph in, and the rules tl check cannot enforce, which
+  the design checker tests.'
 rationale: 'tl context gives an agent the declarations, and tl check holds a graph
   to them. What a graph must also satisfy (every page reachable from home, one primary
   action a page, a journey''s role able to reach each of its pages) is tested only
