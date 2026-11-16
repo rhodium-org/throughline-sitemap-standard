@@ -1,0 +1,33 @@
+uid: LINK-0026
+type: link
+status: ratified
+title: Guidance serves the intent
+text: In this graph, a guidance item derives from the intent.
+rationale: The meta-standard v1.1.0 declares the GUIDE register but no link out of
+  it, so a guidance item cannot reach a root without an undeclared link. This graph
+  declares the one link it needs, for itself only, as the GOV.UK forms standard does
+  (its LINK-0010). The declaration belongs in the meta-standard; once it is there,
+  this one goes.
+normative: true
+links:
+- target: meta:REG-0010
+  type: from
+- target: meta:REG-0001
+  type: to
+- target: meta:LT-0001
+  type: via
+attrs:
+  min: 1
+  scope: this-graph
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-16T12:21:02Z'
+  fingerprint: sha256:f3658483bee68818fcd42025b4a1c6e217628705c237b437529fc161f431ad78
+  content:
+    type: link
+    text: In this graph, a guidance item derives from the intent.
+    normative: true
+    derived: false
+    attrs: {}
