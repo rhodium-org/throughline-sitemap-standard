@@ -1,6 +1,6 @@
 uid: LINK-0026
 type: link
-status: proposed
+status: ratified
 title: Guidance serves the intent
 text: In this graph, a guidance item derives from the intent.
 rationale: The meta-standard v1.1.0 declares the GUIDE register but no link out of
@@ -20,3 +20,14 @@ attrs:
   min: 1
   scope: this-graph
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-16T12:21:02Z'
+  fingerprint: sha256:f3658483bee68818fcd42025b4a1c6e217628705c237b437529fc161f431ad78
+  content:
+    type: link
+    text: In this graph, a guidance item derives from the intent.
+    normative: true
+    derived: false
+    attrs: {}

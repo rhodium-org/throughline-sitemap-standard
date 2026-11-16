@@ -1,6 +1,6 @@
 uid: GUIDE-0001
 type: guidance
-status: proposed
+status: ratified
 title: How to write a sitemap graph
 text: 'The authoring guidance a sitemap graph copies: the order to write a graph
   in, and the rules tl check cannot enforce, which the design checker tests.'
@@ -21,3 +21,15 @@ attrs:
   file: guidance/sitemap-guidance.md
   copy_to: sitemap-guidance.md
   origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  id: github:rhodium289
+  at: '2026-11-16T12:21:01Z'
+  fingerprint: sha256:5c083753bb81df7067819738a612590b99b05deb226458ea99a13c6f1701b9ca
+  content:
+    type: guidance
+    text: 'The authoring guidance a sitemap graph copies: the order to write a graph
+      in, and the rules tl check cannot enforce, which the design checker tests.'
+    normative: true
+    derived: false
+    attrs: {}
